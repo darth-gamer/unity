@@ -1,0 +1,856 @@
+VBCSCompilerPreWarmer: watching VBCSCompiler (PID 20792)
+VBCSCompilerPreWarmer: pre-warm launched (dotnet PID 13036)
+VBCSCompiler prewarm took 12.06 ms
+[Licensing::Module] Trying to connect to existing licensing client channel...
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-parke" at "2026-10-22T18:06:09.4732105Z"
+Built from '6000.6/staging' branch; Version is '6000.6.6f1 (d20c9ac777da) revision 13765786'; Using compiler version '194234433'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26300) Core' Language: 'en' Physical Memory: 16215 MB
+BatchMode: 0, IsHumanControllingUs: 1, StartBugReporterOnCrash: 1, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-10-22T18:06:09Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Unity.exe
+-projectpath
+C:\Users\parke\My project (2)
+-acceptSoftwareTermsForThisRunOnly
+-useHub
+-hubIPC
+-cloudEnvironment
+production
+-licensingIpc
+LicenseClient-parke
+-hubSessionId
+43498e12-6972-4b16-bcb7-f8aba3009f45
+-accessToken
+nNijwpeyu_uD6w95av8r5nHI6B0l32JTAxZPjaPYQ0A012f
+Successfully changed project path to: C:\Users\parke\My project (2)
+C:/Users/parke/My project (2)
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-remapper-allocator-initial-capacity=32768"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-main-allocator-mimalloc-enabled=1"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+Player connection [31336]  Target information:
+
+Player connection [31336]  * "[IP] 192.168.1.182 [Port] 55504 [Flags] 2 [Guid] 3417585368 [EditorId] 3417585368 [Version] 1048832 [Id] WindowsEditor(7,ThundershockPC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [31336] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [31336] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 25812, path: "C:/Program Files (x86)/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.3+d7ffd15
+  Session Id:              619a4916d76d4706850e992053728cb2
+  Correlation Id:          b0b084ca4607c246fa5817ab5fc148b7
+  External correlation Id: 2365547578080943796
+  Machine Id:              +mlE/HGMZlBH/GiWZw/60SifEzI=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-parke" (connect: 0.00s, validation: 0.00s, handshake: 0.04s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-parke-notifications" at "2026-10-22T18:06:09.5138065Z"
+[Licensing::Client] Successfully updated the access token
+[Licensing::Module] Successfully updated the access token nNijwpeyu_...
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 20067638785446-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+[Licensing::Client] Successfully updated license, isAsync: True, time: 0.00
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] Licensing Background thread has ended after 0.05s
+[Package Manager] Connected to IPC stream "Upm-23772" after 0.2 seconds.
+[Licensing::Client] Successfully resolved entitlement details
+Library Redirect Path: Library/
+Initialising UDS system complete:
+  - System type: Client
+  - Resource namespace: 51cd4f8357c376610ec25fdf363998f5
+  - Shared memory size: 1073741824
+  - Command buffer id: 1052576
+  - Command buffer size: 8192
+  - Hashmap size: 4194304
+  - Service connected: false
+Launching Unity Data Store - C:/Program Files/Unity/Hub/Editor/6000.6.6f1/Editor/Data/Tools/Unity.DataStore.exe 
+Unity Data Store artifact dir = Library/DataStore, working dir = C:/Users/parke/My project (2)Unity Data Store running and initialised
+[Physics::Module] Selected backend (deferred post-plugins).
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Initialize engine version: 6000.6.6f1 (d20c9ac777da)
+[EntityIdStore] init: VM path (explicit commit), pageSize=4096, blockCount=1048576, entitiesPerBlock=256, slots reserved=4294967296 bytes
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.6.6f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/parke/My project (2)/Assets
+[D3D12 Device Filter] Vendor Name: ATI
+[D3D12 Device Filter] Device Name: AMD Radeon RX 6700 XT
+[D3D12 Device Filter] Driver Version: 32.0.21045.16010
+[D3D12 Device Filter] Feature Level: 12.2
+[D3D12 Device Filter] Graphics Memory: 12242 MB
+[D3D12 Device Filter] Processor Count: 16
+[D3D12 Device Filter] Device Type: Discrete
+GfxDevice: creating device client; kGfxThreadingModeSplitJobs
+d3d12: failed to query info queue interface (0x80004002).
+Direct3D:
+    Version:         Direct3D 12 [level 12.2]
+    Renderer:        AMD Radeon RX 6700 XT (ID=0x73df)
+    Vendor:          ATI
+    VRAM:            12242 MB
+    App VRAM Budget: 11474 MB
+    Driver:          32.0.21045.16010
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.6.6f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.6.6f1/Editor/Data/BCLExtensions/runtime/netstandard2.1'
+Mono path[2] = 'C:/Program Files/Unity/Hub/Editor/6000.6.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.6.6f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56772
+CodeReloadManager initialized
+ImportWorker Server TCP listen port: 0
+AcceleratorClientConnectionCallback - disconnected - :0
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.6.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001978 seconds.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  0.749 seconds
+Domain Reload Profiling: 1286ms
+	BeginReloadAssembly (141ms)
+		CreateAndSetChildDomain (16ms)
+	RebuildCommonClasses (5ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (65ms)
+	LoadAllAssembliesAndSetupDomain (310ms)
+		LoadAssemblies (122ms)
+		TypeCache.Refresh (205ms)
+			TypeCache.ScanAssembly (191ms)
+		AnalyzeDomain (1ms)
+	FinalizeReload (750ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			BeforeProcessingInitializeOnLoad (106ms)
+			ProcessInitializeOnLoadAttributes (144ms)
+			ProcessInitializeOnLoadMethodAttributes (265ms)
+[Licensing::Client] Successfully resolved entitlement details
+Application.AssetDatabase Initial Refresh Start
+[Package Manager] Restoring resolved packages state from cache
+[Licensing::Client] Successfully resolved entitlement details
+[Package Manager] Registered 58 packages:
+  Packages from [https://packages.unity.com]:
+    com.unity.collab-proxy@2.13.6 (location: C:\Users\parke\My project (2)\Library\PackageCache\com.unity.collab-proxy@4628d2ba6ea4)
+    com.unity.ide.rider@3.0.40 (location: C:\Users\parke\My project (2)\Library\PackageCache\com.unity.ide.rider@e4950c6d131b)
+    com.unity.ide.visualstudio@2.0.28 (location: C:\Users\parke\My project (2)\Library\PackageCache\com.unity.ide.visualstudio@b5edea5f33f4)
+    com.unity.inputsystem@1.20.0 (location: C:\Users\parke\My project (2)\Library\PackageCache\com.unity.inputsystem@7a4e1a2a8194)
+    com.unity.postprocessing@3.5.4 (location: C:\Users\parke\My project (2)\Library\PackageCache\com.unity.postprocessing@141166b789e3)
+    com.unity.searcher@4.9.5 (location: C:\Users\parke\My project (2)\Library\PackageCache\com.unity.searcher@a463122f2c00)
+    com.unity.profiling.core@1.0.3 (location: C:\Users\parke\My project (2)\Library\PackageCache\com.unity.profiling.core@8a49f7027d06)
+    com.unity.nuget.mono-cecil@1.11.6 (location: C:\Users\parke\My project (2)\Library\PackageCache\com.unity.nuget.mono-cecil@ecb9724e46ff)
+  Built-in packages:
+    com.unity.render-pipelines.universal@17.6.0 (location: C:\Users\parke\My project (2)\Library\PackageCache\com.unity.render-pipelines.universal@9b1eb8be54e0)
+    com.unity.shadergraph@17.6.0 (location: C:\Users\parke\My project (2)\Library\PackageCache\com.unity.shadergraph@0de771837e0e)
+    com.unity.ugui@2.6.0 (location: C:\Users\parke\My project (2)\Library\PackageCache\com.unity.ugui@0b1771797efc)
+    com.unity.visualeffectgraph@17.6.0 (location: C:\Users\parke\My project (2)\Library\PackageCache\com.unity.visualeffectgraph@80f7465ede47)
+    com.unity.modules.accessibility@1.0.0 (location: C:\Users\parke\My project (2)\Library\PackageCache\com.unity.modules.accessibility)
+    com.unity.modules.adaptiveperformance@1.0.0 (location: C:\Users\parke\My project (2)\Library\PackageCache\com.unity.modules.adaptiveperformance)
+    com.unity.modules.ai@1.0.0 (location: C:\Users\parke\My project (2)\Library\PackageCache\com.unity.modules.ai)
+    com.unity.modules.androidjni@1.0.0 (location: C:\Users\parke\My project (2)\Library\PackageCache\com.unity.modules.androidjni)
+    com.unity.modules.animation@1.0.0 (location: C:\Users\parke\My project (2)\Library\PackageCache\com.unity.modules.animation)
+    com.unity.modules.assetbundle@1.0.0 (location: C:\Users\parke\My project (2)\Library\PackageCache\com.unity.modules.assetbundle)
+    com.unity.modules.audio@1.0.0 (location: C:\Users\parke\My project (2)\Library\PackageCache\com.unity.modules.audio)
+    com.unity.modules.cloth@1.0.0 (location: C:\Users\parke\My project (2)\Library\PackageCache\com.unity.modules.cloth)
+    com.unity.modules.director@1.0.0 (location: C:\Users\parke\My project (2)\Library\PackageCache\com.unity.modules.director)
+    com.unity.modules.imageconversion@1.0.0 (location: C:\Users\parke\My project (2)\Library\PackageCache\com.unity.modules.imageconversion)
+    com.unity.modules.imgui@1.0.0 (location: C:\Users\parke\My project (2)\Library\PackageCache\com.unity.modules.imgui)
+    com.unity.modules.jsonserialize@1.0.0 (location: C:\Users\parke\My project (2)\Library\PackageCache\com.unity.modules.jsonserialize)
+    com.unity.modules.particlesystem@1.0.0 (location: C:\Users\parke\My project (2)\Library\PackageCache\com.unity.modules.particlesystem)
+    com.unity.modules.physics@1.0.0 (location: C:\Users\parke\My project (2)\Library\PackageCache\com.unity.modules.physics)
+    com.unity.modules.physics2d@1.0.0 (location: C:\Users\parke\My project (2)\Library\PackageCache\com.unity.modules.physics2d)
+    com.unity.modules.physicscore2d@1.0.0 (location: C:\Users\parke\My project (2)\Library\PackageCache\com.unity.modules.physicscore2d)
+    com.unity.modules.screencapture@1.0.0 (location: C:\Users\parke\My project (2)\Library\PackageCache\com.unity.modules.screencapture)
+    com.unity.modules.terrain@1.0.0 (location: C:\Users\parke\My project (2)\Library\PackageCache\com.unity.modules.terrain)
+    com.unity.modules.terrainphysics@1.0.0 (location: C:\Users\parke\My project (2)\Library\PackageCache\com.unity.modules.terrainphysics)
+    com.unity.modules.tetgen@1.0.0 (location: C:\Users\parke\My project (2)\Library\PackageCache\com.unity.modules.tetgen)
+    com.unity.modules.tilemap@1.0.0 (location: C:\Users\parke\My project (2)\Library\PackageCache\com.unity.modules.tilemap)
+    com.unity.modules.timelinefoundation@1.0.0 (location: C:\Users\parke\My project (2)\Library\PackageCache\com.unity.modules.timelinefoundation)
+    com.unity.modules.ui@1.0.0 (location: C:\Users\parke\My project (2)\Library\PackageCache\com.unity.modules.ui)
+    com.unity.modules.uielements@1.0.0 (location: C:\Users\parke\My project (2)\Library\PackageCache\com.unity.modules.uielements)
+    com.unity.modules.umbra@1.0.0 (location: C:\Users\parke\My project (2)\Library\PackageCache\com.unity.modules.umbra)
+    com.unity.modules.unityanalytics@1.0.0 (location: C:\Users\parke\My project (2)\Library\PackageCache\com.unity.modules.unityanalytics)
+    com.unity.modules.unitywebrequest@1.0.0 (location: C:\Users\parke\My project (2)\Library\PackageCache\com.unity.modules.unitywebrequest)
+    com.unity.modules.unitywebrequestassetbundle@1.0.0 (location: C:\Users\parke\My project (2)\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle)
+    com.unity.modules.unitywebrequestaudio@1.0.0 (location: C:\Users\parke\My project (2)\Library\PackageCache\com.unity.modules.unitywebrequestaudio)
+    com.unity.modules.unitywebrequesttexture@1.0.0 (location: C:\Users\parke\My project (2)\Library\PackageCache\com.unity.modules.unitywebrequesttexture)
+    com.unity.modules.unitywebrequestwww@1.0.0 (location: C:\Users\parke\My project (2)\Library\PackageCache\com.unity.modules.unitywebrequestwww)
+    com.unity.modules.vectorgraphics@1.0.0 (location: C:\Users\parke\My project (2)\Library\PackageCache\com.unity.modules.vectorgraphics)
+    com.unity.modules.vehicles@1.0.0 (location: C:\Users\parke\My project (2)\Library\PackageCache\com.unity.modules.vehicles)
+    com.unity.modules.video@1.0.0 (location: C:\Users\parke\My project (2)\Library\PackageCache\com.unity.modules.video)
+    com.unity.modules.wind@1.0.0 (location: C:\Users\parke\My project (2)\Library\PackageCache\com.unity.modules.wind)
+    com.unity.modules.xr@1.0.0 (location: C:\Users\parke\My project (2)\Library\PackageCache\com.unity.modules.xr)
+    com.unity.modules.subsystems@1.0.0 (location: C:\Users\parke\My project (2)\Library\PackageCache\com.unity.modules.subsystems)
+    com.unity.modules.hierarchycore@1.0.0 (location: C:\Users\parke\My project (2)\Library\PackageCache\com.unity.modules.hierarchycore)
+    com.unity.render-pipelines.core@17.6.0 (location: C:\Users\parke\My project (2)\Library\PackageCache\com.unity.render-pipelines.core@e18bd88df4e3)
+    com.unity.graph-authoring@1.0.0 (location: C:\Users\parke\My project (2)\Library\PackageCache\com.unity.graph-authoring@cfd2588851ee)
+    com.unity.render-pipelines.universal-config@17.6.0 (location: C:\Users\parke\My project (2)\Library\PackageCache\com.unity.render-pipelines.universal-config@561422b74439)
+    com.unity.test-framework@1.8.0 (location: C:\Users\parke\My project (2)\Library\PackageCache\com.unity.test-framework@80f691d4262b)
+    com.unity.ext.nunit@2.1.0 (location: C:\Users\parke\My project (2)\Library\PackageCache\com.unity.ext.nunit@0198eae3b53e)
+    com.unity.burst@2.0.0 (location: C:\Users\parke\My project (2)\Library\PackageCache\com.unity.burst@626e66ab421b)
+    com.unity.collections@6.6.0 (location: C:\Users\parke\My project (2)\Library\PackageCache\com.unity.collections@10fff0607388)
+    com.unity.test-framework.performance@6.6.0 (location: C:\Users\parke\My project (2)\Library\PackageCache\com.unity.test-framework.performance@54c5bd86aedb)
+[Subsystems] No new subsystems found in resolved package list.
+[Package Manager] Done registering packages in 0.03 seconds
+Starting: C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\Tools\BuildPipeline\bee_backend.exe --ipc --defer-dag-verification --dagfile="Library/Bee/1900b0aE.dag" --continue-on-failure --profile="Library/Bee/backend1.traceevents" ScriptAssemblies
+WorkingDir: C:/Users/parke/My project (2)
+warn: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+      Assembly system.runtime.interopservices.windowsruntime has duplicate hint path. Ignoring "C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Runtime.InteropServices.WindowsRuntime.dll" in favor of "C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\NetStandard\Extensions\2.0.0\System.Runtime.InteropServices.WindowsRuntime.dll"
+warn: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+      Assembly system.componentmodel.composition has duplicate hint path. Ignoring "C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.ComponentModel.Composition.dll" in favor of "C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.ComponentModel.Composition.dll"
+ExitCode: 0 Duration: 0s390ms
+[664/845    0s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
+*** Tundra build success (0.29 seconds), 1 items updated, 845 evaluated
+AssetDatabase: script compilation time: 0.826220s
+Begin MonoManager ReloadAssembly
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Native extension for WindowsStandalone target not found
+ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  0.857 seconds
+Domain Reload Profiling: 1888ms
+	BeginReloadAssembly (342ms)
+		DisableScriptedObjects (26ms)
+		CreateAndSetChildDomain (146ms)
+	RebuildCommonClasses (8ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (58ms)
+	LoadAllAssembliesAndSetupDomain (607ms)
+		LoadAssemblies (341ms)
+		TypeCache.Refresh (145ms)
+			TypeCache.ScanAssembly (132ms)
+		AnalyzeDomain (64ms)
+			BuildScriptInfoCaches (58ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (858ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (95ms)
+			ProcessInitializeOnLoadAttributes (254ms)
+			ProcessInitializeOnLoadMethodAttributes (94ms)
+			AfterProcessingInitializeOnLoad (7ms)
+		AwakeInstancesAfterBackupRestoration (30ms)
+Starting new worker id: 0 with log in C:/Users/parke/My project (2)/Logs/AssetImportWorkerHW0.log
+
+Asset Pipeline Refresh (id=ef6a879955bbed4429eae67a135bde2e): Total: 3.391 seconds - Initiated by InitialRefreshV2(ForceSynchronousImport)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=1351 ms
+		Asset DB Callback time: managed=33 ms, native=32 ms
+		Scripting: domain reloads=1, domain reload time=1092 ms, compile time=828 ms, other=52 ms
+		Project Asset Count: scripts=1373, non-scripts=4330
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokePackagesCallback: 34.551ms
+	ApplyChangesToAssetFolders: 0.809ms
+	Scan: 145.911ms
+	Collect global state as custom dependencies: 18.744ms
+	CategorizeScriptCompilationAssets: 28.968ms
+	ProcessAssetsWithTransientArtifactChanges: 65.559ms
+	CategorizeAssets: 64.959ms
+	CompileScripts: 828.434ms
+	ImportOutOfDateAssets: 874.439ms (864.488ms without children)
+		UnloadImportedAssets: 0.808ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.851ms
+		ImportSchedulerStart: 8.250ms
+	PostProcessAllAssets: 33.734ms
+		MonoPostProcessAllAssets: 33.653ms
+			UniversalRenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 14.519ms
+			SyncVS.PostprocessSyncProject 3.516ms
+			SpeedTree9Postprocessor.OnPostprocessAllAssets 1.731ms
+			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 1.685ms
+			EditModeScopePostprocessor.OnPostprocessAllAssets 0.867ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 0.736ms
+			ShaderReflectionAssetPostProcessor.OnPostprocessAllAssets 0.517ms
+			InputActionAssetPostprocessor.OnPostprocessAllAssets 0.266ms
+			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.251ms
+			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.210ms
+			ProjectSettingsPostprocessor.OnPostprocessAllAssets 0.172ms
+			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.157ms
+	UnloadStreamsBegin: 1.968ms
+	PersistCurrentRevisions: 0.248ms
+	GenerateScriptTypeHashes: 1.765ms
+	GenerateScriptTypeSerializationHashes: 3.193ms
+	Untracked: 1263.210ms
+
+Application.AssetDatabase Initial Refresh End
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Scanning for USB devices : 3.266ms
+Initializing Unity extensions:
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-My project (2)
+Unloading 82 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Scenes/SampleScene.unity'
+	Deserialize:            5.270 ms
+	Integration:            51.246 ms
+	Integration of assets:  0.004 ms
+	Thread Wait Time:       0.060 ms
+	Total Operation Time:   56.580 ms
+Unloading 5505 unused Assets / (14.4 MB). Loaded Objects now: 7016.
+Memory consumption went from 430.2 MB to 415.8 MB.
+Total: 12.401500 ms (FindLiveObjects: 0.888200 ms CreateObjectMapping: 0.597800 ms MarkObjects: 5.774200 ms  DeleteObjects: 4.821800 ms)
+
+[LAYOUT] About to load UserSettings\Layouts\default-6000.dwlt, keepMainWindow=False
+[LAYOUT] About to save layout C:\Users\parke\My project (2)\UserSettings\Layouts\default-6000.dwlt
+[LAYOUT] About to save layout C:/Users/parke/AppData/Roaming/Unity/Editor-5.x/Preferences\Layouts\current\default-6000.dwlt
+[MODES] ModeService[default].InitializeCurrentMode
+[MODES] ModeService[default].RaiseModeChanged(default, default)
+This project uses Input Manager, which is marked for deprecation. To manage input in your project, use the <a href="https://docs.unity3d.com/Packages/com.unity.inputsystem@latest">Input System package</a> instead.
+<RI> Initializing input.
+Using Windows.Gaming.Input
+<RI> Input initialized.
+D3D11 device created for Microsoft Media Foundation video decoding.
+[Project] Loading completed in 8.012 seconds
+	Project init time: 				6.304 seconds
+		Template init time: 		0.000 seconds
+		Package Manager init time: 		0.242 seconds
+		Asset Database init time: 		0.586 seconds
+		Global illumination init time: 	0.003 seconds
+		Assemblies load time: 			1.330 seconds
+		Unity extensions init time: 	0.024 seconds
+		Asset Database refresh time: 	3.392 seconds
+	Scene opening time: 			1.104 seconds
+##utp:{"type":"ProjectInfo","version":2,"phase":"Immediate","time":1792692376961,"processId":23772,"projectLoad":8.0119054,"projectInit":6.303852,"templateInit":0.0,"packageManagerInit":0.2417145,"assetDatabaseInit":0.5858196,"globalIlluminationInit":0.0025798,"assembliesLoad":1.3299577,"unityExtensionsInit":0.0235664,"assetDatabaseRefresh":3.3915044,"sceneOpening":1.1043059}
+##utp:{"type":"EditorInfo","version":2,"phase":"Immediate","time":1792692376961,"processId":23772,"editorVersion":"6000.6.6f1 (d20c9ac777da)","branch":"6000.6/staging","buildType":"Release","platform":"Windows"}
+Worker ready: AssetImportWorkerHW0 0
+Created GICache directory at C:/Users/parke/AppData/LocalLow/Unity/Caches/GiCache. Took: 0.018s, timestamps: [9.341 - 9.359]
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully updated the access token
+[Licensing::Module] Successfully updated access token: "nNijwpey"... (expires: 2026-10-22T18:56:17Z)
+[Licensing::Client] Successfully resolved entitlement details
+UPID Received '79d5266f-0df5-4396-9863-a565e1251ac6'.
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully updated the access token
+[Licensing::Module] Successfully updated the access token nNijwpeyu_...
+[Licensing::Client] Successfully updated license, isAsync: True, time: 0.00
+Asset Pipeline Refresh (id=b4a69405276245841a3eb4bc70a7f15b): Total: 0.089 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Start Indexing on Editor startup
+[Indexing] Starting Initial Indexing for Assets
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+Importing 'GUID: 00000000000000009000000000000000 - Path: ProjectSettings/QualitySettings.asset' with importer (LibraryAssetImporter)
+Imported 'GUID: 00000000000000009000000000000000' -> (Import Result ID: '4c4863529adc9ac14970731e8a5da60e') in 0.004 seconds [static dependencies only]. Details - ImportResultOutputID=2a108b3da874f726c62fbe5f12be4a8a DependenciesID=e27b047e3559935d81d11e8d5dd7411e StaticDependenciesID=a4661aca7a2be7b6d5e28438e344ffeb 
+Asset Pipeline Refresh (id=b50ec1993e50acf41bccc8659da59c92): Total: 0.042 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: 13285fbac3dc61a42a8d133000372399 - Path: Assets/Plugins' with importer (DefaultImporter)
+Imported 'GUID: 13285fbac3dc61a42a8d133000372399' -> (Import Result ID: '92461874bec21078a6e9e8ffb459b720') in 0.007 seconds [static dependencies only]. Details - ImportResultOutputID=5f6a7ee472d1e519522fda29c9766135 DependenciesID=899d260b477709c50106831d8699aa22 StaticDependenciesID=10a49ce0c39a9862595e40d1a637c931 
+Importing 'GUID: 10e10891df3f9d941b0adc859c1dbac9 - Path: Assets/Plugins/Flag Rainbow Shaders' with importer (DefaultImporter)
+Imported 'GUID: 10e10891df3f9d941b0adc859c1dbac9' -> (Import Result ID: '5d05a2f9d77e5042120549b80ec03667') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=e991551b0b200ea8bc43edd43c9b3210 DependenciesID=045c51869195293bf0c46237163af7c9 StaticDependenciesID=2ebba900fcbc36175710b4deb10e0b24 
+Importing 'GUID: b572fdd6dd38a7a4f8a6834d8b6c3f54 - Path: Assets/Plugins/Flag Rainbow Shaders/Artwork' with importer (DefaultImporter)
+Imported 'GUID: b572fdd6dd38a7a4f8a6834d8b6c3f54' -> (Import Result ID: '0a3fcd109096d88713a1100dcc66158c') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=6f7cbe8d8f641a17d3c3b810fe575e64 DependenciesID=7fb23cd9c14c0adbcf5b65c0e7b1a43e StaticDependenciesID=07acd41d6c4735672c66e16ce087ea0b 
+Importing 'GUID: fc4eee84928f34f499c77d8275a540a7 - Path: Assets/Plugins/Flag Rainbow Shaders/Others' with importer (DefaultImporter)
+Imported 'GUID: fc4eee84928f34f499c77d8275a540a7' -> (Import Result ID: 'cb04fda69175645175386360ca694e29') in 0.000 seconds [static dependencies only]. Details - ImportResultOutputID=373b9ca5a8391e06f2e2ce9be9476a46 DependenciesID=11bafd5ac3ea896d3d56b35f2727efa6 StaticDependenciesID=3da4f90ee77d26f47eb6f99739e2cab2 
+Importing 'GUID: 8d070950b311f1448b0a773950d887b0 - Path: Assets/Plugins/Flag Rainbow Shaders/Prefabs' with importer (DefaultImporter)
+Imported 'GUID: 8d070950b311f1448b0a773950d887b0' -> (Import Result ID: 'c07bea3b381f96408369c992fbc64b94') in 0.000 seconds [static dependencies only]. Details - ImportResultOutputID=ce67d7414ad5a75c2b1d5000ce1bcf80 DependenciesID=cd65fb4ff176402dcab0a1c403de615b StaticDependenciesID=6039bbe2264a47fc3d11751f589bc519 
+Importing 'GUID: e497c698632695f4f85ed2bce1439cc3 - Path: Assets/Plugins/Flag Rainbow Shaders/Artwork/Materials' with importer (DefaultImporter)
+Imported 'GUID: e497c698632695f4f85ed2bce1439cc3' -> (Import Result ID: '24c3c2bdb7f8d28a19cd923f40765b33') in 0.000 seconds [static dependencies only]. Details - ImportResultOutputID=4b985971b2665f20c50b9d49e74bc817 DependenciesID=a300e0d86fb766067c749f3fa8e3342e StaticDependenciesID=cf37a952af810b7bacc8dc35e37e3d58 
+Importing 'GUID: 470b4e6e13c41c442b07e677e931d4bf - Path: Assets/Plugins/Flag Rainbow Shaders/Artwork/Shaders' with importer (DefaultImporter)
+Imported 'GUID: 470b4e6e13c41c442b07e677e931d4bf' -> (Import Result ID: '397fff331eb557fd2e8ae54a84c80410') in 0.000 seconds [static dependencies only]. Details - ImportResultOutputID=5923e015f2f00b23b37174c31b149df8 DependenciesID=c87eb033270b68666438f8bad01d2b48 StaticDependenciesID=8b6a1aeb99f873ad58c3f760c13876e1 
+Importing 'GUID: bb7fdc3b9acf8f541990deb32cd0d62a - Path: Assets/Plugins/Flag Rainbow Shaders/Artwork/Textures' with importer (DefaultImporter)
+Imported 'GUID: bb7fdc3b9acf8f541990deb32cd0d62a' -> (Import Result ID: '23964c94abd9152315dcdc3b678c21f7') in 0.000 seconds [static dependencies only]. Details - ImportResultOutputID=d137685f395a39b253fedd216f553535 DependenciesID=a4b6638f24f9fe79d091f5e728ccffee StaticDependenciesID=f0c655847e8bda8fe5fb2e921083cdf1 
+Importing 'GUID: 44aa99daf0392c049a52f62607bf2b6b - Path: Assets/Plugins/Flag Rainbow Shaders/Demo.unity' with importer (DefaultImporter)
+Imported 'GUID: 44aa99daf0392c049a52f62607bf2b6b' -> (Import Result ID: '9fb3dd41ebeeb811c2033b1ac78bd10d') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=5fc675332b2e309e34d293818e2f0581 DependenciesID=b85e9e2efce3066f84183f0cd5dd807e StaticDependenciesID=67c0aa7885e4977ac77948a8e90c9fe5 
+Importing 'GUID: bb23384a38b610d46b3bca5f805ce727 - Path: Assets/Plugins/Flag Rainbow Shaders/Read Me.txt.bak' with importer (DefaultImporter)
+Imported 'GUID: bb23384a38b610d46b3bca5f805ce727' -> (Import Result ID: '6992b936d641f66d18dd10d344ea6a01') in 0.036 seconds [static dependencies only]. Details - ImportResultOutputID=de2df45f1a5880fa4ffb17bc5781587d DependenciesID=b48c2bc850f6a42f40558479f6f4daa1 StaticDependenciesID=8b1c0e38f43bc493346ed0c93adb35bc 
+Importing 'GUID: 9e6b4af7a5f679a4cbc85936abe1d02f - Path: Assets/Plugins/Flag Rainbow Shaders/Artwork/Textures/PrideFlag.png' with importer (TextureImporter)
+Imported 'GUID: 9e6b4af7a5f679a4cbc85936abe1d02f' -> (Import Result ID: '176b05aab755faf207a6dce3a3442421') in 0.023 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8b351101cb048392a44e054362c3315d DependenciesID=a2f8ed45be43b84c266dc7d8de5d46f5 StaticDependenciesID=8e29ad841111fe0183ef0a6d8c7b1592 
+Importing 'GUID: aee62b3dffb98ee43be7fdbe84cc6ac4 - Path: Assets/Plugins/Flag Rainbow Shaders/Artwork/Textures/White Heart.png' with importer (TextureImporter)
+Imported 'GUID: aee62b3dffb98ee43be7fdbe84cc6ac4' -> (Import Result ID: 'de62900e00e1c49234b517deeeb7a5d5') in 0.258 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=001cf6c2f02f45d3d59b9fc88b504650 DependenciesID=c7422e6a867c50a1086343ffd80ebdcb StaticDependenciesID=47a4d3e52cfb2b89adb1d1e67a61e455 
+Importing 'GUID: 8236471791e09c947b7d1654da13c08f - Path: Assets/Plugins/Flag Rainbow Shaders/Artwork/Materials/Flag.mat' with importer (NativeFormatImporter)
+Imported 'GUID: 8236471791e09c947b7d1654da13c08f' -> (Import Result ID: 'cdad2771bc24aaf88a11db44b0ce78f3') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=e9d5bd0b9000b7691a040626ff8becf3 DependenciesID=460f0987df43aa9eb91f11700266cee8 StaticDependenciesID=0b70c3c24fa8e0cce004cd4bc88a74ed 
+Importing 'GUID: 63b2e5dbaef291048b9676e809ffbd19 - Path: Assets/Plugins/Flag Rainbow Shaders/Artwork/Materials/Metalic.mat' with importer (NativeFormatImporter)
+Imported 'GUID: 63b2e5dbaef291048b9676e809ffbd19' -> (Import Result ID: '7d75f1d1833b98f992bc3de1f77c1701') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=e9e8205e51fa16bcab0ce2195e1b024d DependenciesID=78d98f7df70fe514200808bca65c0888 StaticDependenciesID=88f09e2866ac5ee5a594602e52ccd6ef 
+Importing 'GUID: a7ac34ff1b69ff84d86bb206d80d0448 - Path: Assets/Plugins/Flag Rainbow Shaders/Artwork/Materials/Heart.mat' with importer (NativeFormatImporter)
+Imported 'GUID: a7ac34ff1b69ff84d86bb206d80d0448' -> (Import Result ID: '0bf69cf36e1584b17933f8e2f455ea2e') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=cd57c87f569b1f39c1443327a70462da DependenciesID=caf17133209feaf31d0d2720e222bfac StaticDependenciesID=7e09667477d41df8393fab2a927b1ff7 
+Importing 'GUID: 09fd31986bda17b4f8ce16de663b1a6d - Path: Assets/Plugins/Flag Rainbow Shaders/Artwork/Materials/Rainbow 1 Segment.mat' with importer (NativeFormatImporter)
+Imported 'GUID: 09fd31986bda17b4f8ce16de663b1a6d' -> (Import Result ID: '603c510d72b980186829e2f529c9f689') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=a62ea6f76cecb87b7bc9d103779e1899 DependenciesID=a07cf1c2b31e6336cf7d3c2d4afa75b9 StaticDependenciesID=bee9487d6fac2ca12b6e41a1a5cdd9fa 
+Importing 'GUID: 7e85e2fcecd1001478892716b02813ec - Path: Assets/Plugins/Flag Rainbow Shaders/Artwork/Materials/Rainbow.mat' with importer (NativeFormatImporter)
+Imported 'GUID: 7e85e2fcecd1001478892716b02813ec' -> (Import Result ID: 'd64bdd517d7ee8cd60b050fd1c83d095') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=5b1571689c81014f33c18ec7782339fd DependenciesID=3377286e9543fadeaae8aac137a503d1 StaticDependenciesID=afaad2b0f4c180f2006f32f47475db22 
+Importing 'GUID: d1a64948cddc4154f8f164a766bb2533 - Path: Assets/Plugins/Flag Rainbow Shaders/Artwork/Shaders/Flag.shadergraph' with importer (ScriptedImporter : Unity.ShaderGraph.Editor:UnityEditor.ShaderGraph:ShaderGraphImporter)
+Imported 'GUID: d1a64948cddc4154f8f164a766bb2533' -> (Import Result ID: '746d45bff2b724d143263ec2e766a7fe') in 0.690 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=30d61d9e893cc714dba1a643c94420d4 DependenciesID=f610b4b990299d765983638739557d01 StaticDependenciesID=822962fe0c774ca77b92be0479754a3f 
+Importing 'GUID: 15f9c6ee25024a04fa78aa80e0dcad1e - Path: Assets/Plugins/Flag Rainbow Shaders/Artwork/Shaders/Sprite Rainbow.shadergraph' with importer (ScriptedImporter : Unity.ShaderGraph.Editor:UnityEditor.ShaderGraph:ShaderGraphImporter)
+Imported 'GUID: 15f9c6ee25024a04fa78aa80e0dcad1e' -> (Import Result ID: '8e42b92afd9a15ae479bffad4fdd224e') in 0.146 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c6bbcd5733842281ba9064c6cb18b633 DependenciesID=0dcb1c9221851151a599c3cbdb1cc5dc StaticDependenciesID=f1752df63b8c38ba1e9e09d489a32245 
+Importing 'GUID: 13091b0057a2e7d42ab5be4e6e364b19 - Path: Assets/Plugins/Flag Rainbow Shaders/Others/UniversalRenderPipelineGlobalSettings.asset' with importer (NativeFormatImporter)
+Imported 'GUID: 13091b0057a2e7d42ab5be4e6e364b19' -> (Import Result ID: 'ae26c909b4202853e347c5a41c3f0d15') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=c62a470c9e1aea5f6a895efc3784bd85 DependenciesID=bbd88d2124752024a6d73a4d9e9ca431 StaticDependenciesID=58dc1c556827af41d04575a76b9c9e82 
+Importing 'GUID: 4565e330c96d53a47828f4e7ff165cc1 - Path: Assets/Plugins/Flag Rainbow Shaders/Others/Global Volume Profile.asset' with importer (NativeFormatImporter)
+Imported 'GUID: 4565e330c96d53a47828f4e7ff165cc1' -> (Import Result ID: '29b9e657931245ccbc596cbcc9932526') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=d082933ce50c1364930831426cbc2858 DependenciesID=1f01fae52191db357a8c3b6cae4201cb StaticDependenciesID=323db8dc1e0e3f1a36ade3cf8f5c11a7 
+Importing 'GUID: 7cdeb1fb2cda2ea46a8a4c9b337cd876 - Path: Assets/Plugins/Flag Rainbow Shaders/Read Me.txt' with importer (TextScriptImporter)
+Imported 'GUID: 7cdeb1fb2cda2ea46a8a4c9b337cd876' -> (Import Result ID: '657f85bf33bac997467a92d51976839c') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=7ddb0ca5847136c378ae900cc723e128 DependenciesID=f123f9445fcfcfa3f7c2bba70eadc33b StaticDependenciesID=371ecbfb08409461faea4d912763a82f 
+Importing 'GUID: 378d66f69d9f66f4eaa44fe085469a58 - Path: Assets/Plugins/Flag Rainbow Shaders/Prefabs/Flag.prefab' with importer (PrefabImporter)
+Imported 'GUID: 378d66f69d9f66f4eaa44fe085469a58' -> (Import Result ID: 'd746da8219813c0683858aaa41d022b7') in 0.002 seconds [static dependencies only]. Details - ImportResultOutputID=961d46c1b29b9fe8fae9375f5fba42b7 DependenciesID=cc03a663c031f3fa3aefc08c920a2258 StaticDependenciesID=f44d21017ab3333d7e5518e56a4c28da 
+Importing 'GUID: fe0c8a5cf0449464686f2dbfab27fc34 - Path: Assets/Plugins/Flag Rainbow Shaders/Prefabs/White Heart.prefab' with importer (PrefabImporter)
+Imported 'GUID: fe0c8a5cf0449464686f2dbfab27fc34' -> (Import Result ID: 'd8a6aff1675a473f4f89174d2b8c9524') in 0.009 seconds [static dependencies only]. Details - ImportResultOutputID=5559ce11f7d8c9a614dbe45bc8e3c93e DependenciesID=7cc23464ec782b46fa6e1148a524fa98 StaticDependenciesID=9c6a9048971693415bdeb0d289294bb9 
+Shader error in 'Idyllic Fantasy Nature/Vegetation': Keyword '_MAIN_LIGHT_SHADOWS' is duplicated in several directives. This can lead to unnecessary shader variants. Please remove it from all but one directive.
+Shader error in 'Idyllic Fantasy Nature/Vegetation': Keyword '_MAIN_LIGHT_SHADOWS_CASCADE' is duplicated in several directives. This can lead to unnecessary shader variants. Please remove it from all but one directive.
+
+Asset Pipeline Refresh (id=bcd06276cbb493c4683fb45014290e46): Total: 1.550 seconds - Initiated by RefreshV2(ForceSynchronousImport)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=24 (actual=24, local cache=0, cache server=0)
+		Asset DB Process Time: managed=3 ms, native=1256 ms
+		Asset DB Callback time: managed=219 ms, native=70 ms
+		Scripting: domain reloads=0, domain reload time=0 ms, compile time=0 ms, other=0 ms
+		Project Asset Count: scripts=1381, non-scripts=4346
+		Asset File Changes: new=24, changed=24, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokePackagesCallback: 0.664ms
+	ApplyChangesToAssetFolders: 0.075ms
+	Scan: 28.584ms
+	Collect global state as custom dependencies: 0.328ms
+	OnSourceAssetsModified: 0.828ms
+	CategorizeAssets: 22.505ms
+	ImportOutOfDateAssets: 1201.397ms (1.470ms without children)
+		ImportManagerImport: 1198.776ms (10.139ms without children)
+			UpdateCategorizedAssets: 0.577ms
+		UnloadImportedAssets: 0.153ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.763ms
+		ImportSchedulerStart: 0.182ms
+	PostProcessAllAssets: 282.892ms
+		ShaderAssetModifiedCallback 64.840ms
+		VersionControlSettings.HiddenFilePostprocess 0.658ms
+		XRBuildSystem.XRAssetImported 0.353ms
+		ComputeShaderImportPostprocess 0.081ms
+		PostprocessAssetsUpdateCachedIcon 0.058ms
+		MonoPostProcessAllAssets: 215.671ms
+			MaterialPostprocessor.OnPostprocessAllAssets 127.963ms
+			SyncVS.PostprocessSyncProject 77.811ms
+			AssetPostprocessor.OnPostprocessAllAssets 2.066ms
+			ShaderGraphAssetPostProcessor.OnPostprocessAllAssets 1.478ms
+			TMPro_TexturePostProcessor.OnPostprocessAllAssets 1.288ms
+			ConfigAssetsTracker.OnPostprocessAllAssets 0.519ms
+			AssetChangedListener.OnPostprocessAllAssets 0.370ms
+			TextAssetPostProcessor.OnPostprocessAllAssets 0.303ms
+			PostProcessor.OnPostprocessAllAssets 0.162ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 0.082ms
+			InputActionAssetPostprocessor.OnPostprocessAllAssets 0.076ms
+			InputActionJsonNameModifierAssetProcessor.OnPostprocessAllAssets 0.070ms
+	PostAssetChangesProfiler: 5.724ms
+	GatherAllCurrentPrimaryImportResultRevisions: 0.273ms
+	UnloadStreamsBegin: 1.239ms
+	PersistCurrentRevisions: 0.357ms
+	Untracked: 5.012ms
+
+Asset Pipeline Refresh (id=8b9ad1294ba562041870f8086f0050e3): Total: 0.017 seconds - Initiated by RefreshV2(ForceSynchronousImport)
+Request Asset Garbage Collect because used heap size increased from 415.5 MB to 0.69 GB, exceeding the threshold of 256.0 MB.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 127 unused Assets / (0.7 MB). Loaded Objects now: 8393.
+Memory consumption went from 0.69 GB to 0.68 GB.
+Total: 14.798500 ms (FindLiveObjects: 0.569400 ms CreateObjectMapping: 0.202800 ms MarkObjects: 12.891900 ms  DeleteObjects: 0.882300 ms)
+
+Importing 'GUID: 8236471791e09c947b7d1654da13c08f - Path: Assets/Plugins/Flag Rainbow Shaders/Artwork/Materials/Flag.mat' with importer (NativeFormatImporter)
+Imported 'GUID: 8236471791e09c947b7d1654da13c08f' -> (Import Result ID: '6e7b74b95c5bbf1939e5d5d0fafcffb1') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=e9d5bd0b9000b7691a040626ff8becf3 DependenciesID=eab51ea2fec79b2c51790f0f808a014a StaticDependenciesID=923b7dd6a52ea110836ebad6c039b2cf 
+Importing 'GUID: 63b2e5dbaef291048b9676e809ffbd19 - Path: Assets/Plugins/Flag Rainbow Shaders/Artwork/Materials/Metalic.mat' with importer (NativeFormatImporter)
+Imported 'GUID: 63b2e5dbaef291048b9676e809ffbd19' -> (Import Result ID: '84f4a894fa7ebb0e1cfbb1fa3d78844a') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=e9e8205e51fa16bcab0ce2195e1b024d DependenciesID=a03442e85759d5e4f0073b47ee20bf39 StaticDependenciesID=8dcea5273044fa791151c484c02c385f 
+Importing 'GUID: a7ac34ff1b69ff84d86bb206d80d0448 - Path: Assets/Plugins/Flag Rainbow Shaders/Artwork/Materials/Heart.mat' with importer (NativeFormatImporter)
+Imported 'GUID: a7ac34ff1b69ff84d86bb206d80d0448' -> (Import Result ID: '5cf7cb7873c3b3f0b4dcb80e3ec0273b') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=cd57c87f569b1f39c1443327a70462da DependenciesID=1910d0f9b103f0db3e5c41e62c39fde7 StaticDependenciesID=f5bdc45800fae067f839522a72b33772 
+Importing 'GUID: 09fd31986bda17b4f8ce16de663b1a6d - Path: Assets/Plugins/Flag Rainbow Shaders/Artwork/Materials/Rainbow 1 Segment.mat' with importer (NativeFormatImporter)
+Imported 'GUID: 09fd31986bda17b4f8ce16de663b1a6d' -> (Import Result ID: '09d8630eb15b559cf33c0961fa417f7a') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=a62ea6f76cecb87b7bc9d103779e1899 DependenciesID=ae0d34b676b90935220844a6b2b781f2 StaticDependenciesID=9a1f4a244697166ad202de97b202c675 
+Importing 'GUID: 7e85e2fcecd1001478892716b02813ec - Path: Assets/Plugins/Flag Rainbow Shaders/Artwork/Materials/Rainbow.mat' with importer (NativeFormatImporter)
+Imported 'GUID: 7e85e2fcecd1001478892716b02813ec' -> (Import Result ID: '59014f55e0a6e8ff5b691322369df806') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=5b1571689c81014f33c18ec7782339fd DependenciesID=3bfc51fd2023eb53ae101c983d58d481 StaticDependenciesID=2e326ca3e8346d1d994fa48316256190 
+Asset Pipeline Refresh (id=fe0eacd497942e440886c143a95044b1): Total: 0.062 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Starting new worker id: 1 with log in C:/Users/parke/My project (2)/Logs/AssetImportWorkerHW1.log
+[Worker0] Imported GUID: e497c698632695f4f85ed2bce1439cc3 - Path: Assets/Plugins/Flag Rainbow Shaders/Artwork/Materials - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '63c63fe4e9e4f14a17299e0d3709cf5e') in 0.068203 seconds
+Starting new worker id: 2 with log in C:/Users/parke/My project (2)/Logs/AssetImportWorkerHW2.log
+[Worker0] Imported GUID: 15f9c6ee25024a04fa78aa80e0dcad1e - Path: Assets/Plugins/Flag Rainbow Shaders/Artwork/Shaders/Sprite Rainbow.shadergraph - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '082fce5b2f750f32835f79ca2edf90a5') in 0.0903442 seconds
+[Worker0] Imported GUID: 63b2e5dbaef291048b9676e809ffbd19 - Path: Assets/Plugins/Flag Rainbow Shaders/Artwork/Materials/Metalic.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '243453a37e6c95545cc11d4343682df5') in 0.0233283 seconds
+[Worker0] Imported GUID: 7e85e2fcecd1001478892716b02813ec - Path: Assets/Plugins/Flag Rainbow Shaders/Artwork/Materials/Rainbow.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '4f26f22717869541a115dd5832028ef0') in 0.0269069 seconds
+[Worker0] Imported GUID: d1a64948cddc4154f8f164a766bb2533 - Path: Assets/Plugins/Flag Rainbow Shaders/Artwork/Shaders/Flag.shadergraph - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '7ae6cdd4adf8c5203fe69800573f0710') in 0.0200331 seconds
+[Worker0] Imported GUID: 13285fbac3dc61a42a8d133000372399 - Path: Assets/Plugins - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '65b43b9d29f598c0c95504528a977753') in 0.0141438 seconds
+[Worker0] Imported GUID: bb7fdc3b9acf8f541990deb32cd0d62a - Path: Assets/Plugins/Flag Rainbow Shaders/Artwork/Textures - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '1493ab962b517757e50bc36504b2c823') in 0.0154031 seconds
+[Worker0] Imported GUID: 7cdeb1fb2cda2ea46a8a4c9b337cd876 - Path: Assets/Plugins/Flag Rainbow Shaders/Read Me.txt - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '9039f0468537edcf53e9c0b995ec4a28') in 0.0125578 seconds
+[Worker0] Imported GUID: 10e10891df3f9d941b0adc859c1dbac9 - Path: Assets/Plugins/Flag Rainbow Shaders - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '4c674a6a907f26d2a054a5ae0f18dbd4') in 0.0137771 seconds
+[Worker0] Imported GUID: 13091b0057a2e7d42ab5be4e6e364b19 - Path: Assets/Plugins/Flag Rainbow Shaders/Others/UniversalRenderPipelineGlobalSettings.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'c110bcfd327070999ab240aac7d6c9f6') in 0.0299394 seconds
+[Worker0] Imported GUID: 4565e330c96d53a47828f4e7ff165cc1 - Path: Assets/Plugins/Flag Rainbow Shaders/Others/Global Volume Profile.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '98911ef40812cf321f09e835995f0247') in 0.0144697 seconds
+[Worker0] Imported GUID: 44aa99daf0392c049a52f62607bf2b6b - Path: Assets/Plugins/Flag Rainbow Shaders/Demo.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '3034eeff9b9f6b7780b9cd679d87a9e9') in 0.0138006 seconds
+[Worker0] Imported GUID: 8236471791e09c947b7d1654da13c08f - Path: Assets/Plugins/Flag Rainbow Shaders/Artwork/Materials/Flag.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'de16412aac318c94a61baf064518c623') in 0.0172794 seconds
+[Worker0] Imported GUID: 378d66f69d9f66f4eaa44fe085469a58 - Path: Assets/Plugins/Flag Rainbow Shaders/Prefabs/Flag.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '79285354608861bd2d377aa0ada4942a') in 0.0229418 seconds
+[Worker0] Imported GUID: 8d070950b311f1448b0a773950d887b0 - Path: Assets/Plugins/Flag Rainbow Shaders/Prefabs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'b4b13a23faf949486a4a923e2aa6cf47') in 0.0132464 seconds
+[Worker0] Imported GUID: bb23384a38b610d46b3bca5f805ce727 - Path: Assets/Plugins/Flag Rainbow Shaders/Read Me.txt.bak - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '7b77cb05f656721c9fe85dcb8122e0b3') in 0.0137938 seconds
+[Worker0] Imported GUID: b572fdd6dd38a7a4f8a6834d8b6c3f54 - Path: Assets/Plugins/Flag Rainbow Shaders/Artwork - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '6cee5a22a60c9699c2d1a2ad31d30884') in 0.0130434 seconds
+[Worker0] Imported GUID: fe0c8a5cf0449464686f2dbfab27fc34 - Path: Assets/Plugins/Flag Rainbow Shaders/Prefabs/White Heart.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '5acff4aad8d71ffeedcdf13025a10c10') in 0.0363037 seconds
+[Worker0] Imported GUID: aee62b3dffb98ee43be7fdbe84cc6ac4 - Path: Assets/Plugins/Flag Rainbow Shaders/Artwork/Textures/White Heart.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '2919ead5c56116f45059a848d47e993d') in 0.0475556 seconds
+[Worker0] Imported GUID: a7ac34ff1b69ff84d86bb206d80d0448 - Path: Assets/Plugins/Flag Rainbow Shaders/Artwork/Materials/Heart.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '8c8a21b244cffad232d393a039507519') in 0.0186967 seconds
+[Worker0] Imported GUID: 470b4e6e13c41c442b07e677e931d4bf - Path: Assets/Plugins/Flag Rainbow Shaders/Artwork/Shaders - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'c501066d966885eaefebb3ef98b9f406') in 0.0162687 seconds
+[Worker0] Imported GUID: fc4eee84928f34f499c77d8275a540a7 - Path: Assets/Plugins/Flag Rainbow Shaders/Others - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'c9cf494d3e2a616cd8b48996425ce693') in 0.0172456 seconds
+[Worker0] Imported GUID: 09fd31986bda17b4f8ce16de663b1a6d - Path: Assets/Plugins/Flag Rainbow Shaders/Artwork/Materials/Rainbow 1 Segment.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'f6fe079aa09840d8faa3b12a052ed79c') in 0.0168392 seconds
+[Worker0] Imported GUID: 9e6b4af7a5f679a4cbc85936abe1d02f - Path: Assets/Plugins/Flag Rainbow Shaders/Artwork/Textures/PrideFlag.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '2804fd652d4a71d3efea4eeec68d6e45') in 0.0177219 seconds
+Worker ready: AssetImportWorkerHW1 1
+Worker ready: AssetImportWorkerHW2 2
+Shader 'Hidden/Terrain/Terrain Simple': dependency 'AddPassShader' shader 'Hidden/Hidden/Terrain/Terrain Simple_AddPass' not found
+Shader 'Hidden/Terrain/Terrain Simple': dependency 'BaseMapGenShader' shader 'Hidden/Hidden/Terrain/Terrain Simple_BaseMapGen' not found
+Shader 'Hidden/Terrain/Terrain Standard 4 Layers URP': dependency 'AddPassShader' shader 'Hidden/Hidden/Terrain/Terrain Standard 4 Layers URP_AddPass' not found
+Shader 'Hidden/Terrain/Terrain Standard 4 Layers URP': dependency 'BaseMapGenShader' shader 'Hidden/Hidden/Terrain/Terrain Standard 4 Layers URP_BaseMapGen' not found
+[Worker2] Imported GUID: b0a00d378697b584391c424d0ecf58ac - Path: Assets/Idyllic Fantasy Nature/Materials/Rocks/Cliff.mat - Importer: PreviewImporter -> (ImportResultId: '36bcea67143836918ee4ad1dcc3ef7d8') in 0.4752307 seconds
+[Worker2] Imported GUID: 18fcf51a9ce28ac43bbcf1c40e8b314f - Path: Assets/Idyllic Fantasy Nature/Materials/Trees/Fir_Bark.mat - Importer: PreviewImporter -> (ImportResultId: 'f2a0679d378d6841176f1f1a591a4e28') in 0.0370568 seconds
+TrimDiskCacheJob: Current cache size 0mb
+[Worker1] Imported GUID: d1a64948cddc4154f8f164a766bb2533 - Path: Assets/Plugins/Flag Rainbow Shaders/Artwork/Shaders/Flag.shadergraph - Importer: PreviewImporter -> (ImportResultId: '28a5c7878c2c43a3972eda1a9b3c56eb') in 3.7190951 seconds
+[Worker1] Imported GUID: 238230188058eb346a73d0a5d46a3111 - Path: Assets/BEDRILL/Track_Environment_Free/Materials/Track_Texture.mat - Importer: PreviewImporter -> (ImportResultId: '3389269f2c57a2bfe12c21489cdf30dc') in 0.0355028 seconds
+[Worker2] Imported GUID: a7ac34ff1b69ff84d86bb206d80d0448 - Path: Assets/Plugins/Flag Rainbow Shaders/Artwork/Materials/Heart.mat - Importer: PreviewImporter -> (ImportResultId: '9eaa04df58ceb37607c74482fdc2127b') in 3.3058748 seconds
+[Worker0] Imported GUID: 8236471791e09c947b7d1654da13c08f - Path: Assets/Plugins/Flag Rainbow Shaders/Artwork/Materials/Flag.mat - Importer: PreviewImporter -> (ImportResultId: '05366f45fb73f3f5740dad0baff2b213') in 3.8829692 seconds
+[Worker0] Imported GUID: 63b2e5dbaef291048b9676e809ffbd19 - Path: Assets/Plugins/Flag Rainbow Shaders/Artwork/Materials/Metalic.mat - Importer: PreviewImporter -> (ImportResultId: '2a0a95c253e69f1b21dcc456354180b1') in 0.0250711 seconds
+[Worker2] Imported GUID: e75f35f10811e974dabb88eb7425a1a5 - Path: Assets/Idyllic Fantasy Nature/Materials/Rocks/Rock_Medium_02.mat - Importer: PreviewImporter -> (ImportResultId: 'd82ac4dbfcac7d75bac4a64bf6fce3e3') in 0.0416985 seconds
+[Worker1] Imported GUID: 09fd31986bda17b4f8ce16de663b1a6d - Path: Assets/Plugins/Flag Rainbow Shaders/Artwork/Materials/Rainbow 1 Segment.mat - Importer: PreviewImporter -> (ImportResultId: '50f2f816bdb1d3e61bfe95c5ed300888') in 0.181949 seconds
+[Worker0] Imported GUID: 7e85e2fcecd1001478892716b02813ec - Path: Assets/Plugins/Flag Rainbow Shaders/Artwork/Materials/Rainbow.mat - Importer: PreviewImporter -> (ImportResultId: '270c286982d73f8b67f5cb7ba81c59bf') in 0.1974776 seconds
+[Worker2] Imported GUID: 15f9c6ee25024a04fa78aa80e0dcad1e - Path: Assets/Plugins/Flag Rainbow Shaders/Artwork/Shaders/Sprite Rainbow.shadergraph - Importer: PreviewImporter -> (ImportResultId: 'bf9b52b0df91f3dacbb2addd0d9015e4') in 0.1943142 seconds
+[Worker2] Imported GUID: 10e10891df3f9d941b0adc859c1dbac9 - Path: Assets/Plugins/Flag Rainbow Shaders - Importer: PreviewImporter -> (ImportResultId: '46f8ee879a501460d9fe5048ee983121') in 0.0127173 seconds
+[Worker2] Imported GUID: b572fdd6dd38a7a4f8a6834d8b6c3f54 - Path: Assets/Plugins/Flag Rainbow Shaders/Artwork - Importer: PreviewImporter -> (ImportResultId: 'ebbe5af086dd58eee16c0a1005b5c455') in 0.0121153 seconds
+[Worker2] Imported GUID: e497c698632695f4f85ed2bce1439cc3 - Path: Assets/Plugins/Flag Rainbow Shaders/Artwork/Materials - Importer: PreviewImporter -> (ImportResultId: '04f31334ebd05134497c56a797884f3d') in 0.0125475 seconds
+[Worker2] Imported GUID: 470b4e6e13c41c442b07e677e931d4bf - Path: Assets/Plugins/Flag Rainbow Shaders/Artwork/Shaders - Importer: PreviewImporter -> (ImportResultId: '99af8779bfa10fc742a961ada63248e1') in 0.0121488 seconds
+[Worker2] Imported GUID: bb7fdc3b9acf8f541990deb32cd0d62a - Path: Assets/Plugins/Flag Rainbow Shaders/Artwork/Textures - Importer: PreviewImporter -> (ImportResultId: 'e3bacb221709163e37fa326dbcc8fd81') in 0.0122047 seconds
+[Worker2] Imported GUID: 9e6b4af7a5f679a4cbc85936abe1d02f - Path: Assets/Plugins/Flag Rainbow Shaders/Artwork/Textures/PrideFlag.png - Importer: PreviewImporter -> (ImportResultId: '8d8202521738ceb556f574c87ce46971') in 0.0508255 seconds
+[Worker0] Imported GUID: aee62b3dffb98ee43be7fdbe84cc6ac4 - Path: Assets/Plugins/Flag Rainbow Shaders/Artwork/Textures/White Heart.png - Importer: PreviewImporter -> (ImportResultId: 'dee1ae23bac73a1f51744d40d998ea5d') in 0.072599 seconds
+[Licensing::Client] Successfully resolved entitlement details
+Asset Pipeline Refresh (id=d87e303c1c9822545be6550ebb13ec18): Total: 0.130 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=eae0adb7c1a6b0446af0be707264e1f4): Total: 0.013 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Asset Pipeline Refresh (id=38dfa6b3e1db5ea4db870f21b143b79b): Total: 0.004 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Importing 'GUID: d062db254dd2844439c523f0cd04ea3c - Path: Assets/New Material 2.mat' with importer (NativeFormatImporter)
+Imported 'GUID: d062db254dd2844439c523f0cd04ea3c' -> (Import Result ID: 'fb3117118290217345002be05035ec5f') in 0.002 seconds [static dependencies only]. Details - ImportResultOutputID=78cc6e0a7412b473257a4f18b2237133 DependenciesID=56188cf7f1a1e6cebf6b190a4605b5e6 StaticDependenciesID=e5c9e50a7477bf893e435c14eab92dcc 
+Asset Pipeline Refresh (id=6a2aa95670c2ab84f9e31bbf80bcd664): Total: 0.061 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: d062db254dd2844439c523f0cd04ea3c - Path: Assets/New Material 2.mat' with importer (NativeFormatImporter)
+Imported 'GUID: d062db254dd2844439c523f0cd04ea3c' -> (Import Result ID: 'e3574b2c65806165f52f16b75f164fe8') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=78cc6e0a7412b473257a4f18b2237133 DependenciesID=1aa8bf4c14db4f873fcc74339fef3562 StaticDependenciesID=23fa7871263526748f4474b040269889 
+Asset Pipeline Refresh (id=a0f415c4ff91db6489cf38cc4c6b7770): Total: 0.041 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+[Worker2] Imported GUID: d062db254dd2844439c523f0cd04ea3c - Path: Assets/New Material 2.mat - Importer: PreviewImporter -> (ImportResultId: 'a88238403f50ae097ab880b867016e82') in 0.0292162 seconds
+[Worker2] Imported GUID: d062db254dd2844439c523f0cd04ea3c - Path: Assets/New Material 2.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '00243a365fb1f62bd85da13f5258c82c') in 0.0877738 seconds
+Asset Pipeline Refresh (id=2d2ef8c0b4c49fd4dbcceeb966a6b069): Total: 0.013 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Asset Pipeline Refresh (id=2b4ac3c17179f5941a0d9b8cf7fa2321): Total: 0.004 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Scanning for USB devices : 4.663ms
+Scanning for USB devices : 4.962ms
+Scanning for USB devices : 3.547ms
+Asset Pipeline Refresh (id=a0431f6a618e8754eac1ef8334aa65fb): Total: 0.007 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Entering Playmode with Reload Domain disabled.
+If you experience any issues, please disable "Enter Play Mode Options" in Editor Settings
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            2.898 ms
+	Integration:            61.104 ms
+	Integration of assets:  0.003 ms
+	Thread Wait Time:       0.007 ms
+	Total Operation Time:   64.012 ms
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            1.668 ms
+	Integration:            18.894 ms
+	Integration of assets:  0.002 ms
+	Thread Wait Time:       0.010 ms
+	Total Operation Time:   20.574 ms
+Unloading 489 unused Assets / (13.0 MB). Loaded Objects now: 8410.
+Memory consumption went from 0.70 GB to 0.69 GB.
+Total: 19.685200 ms (FindLiveObjects: 0.573200 ms CreateObjectMapping: 0.129900 ms MarkObjects: 13.885400 ms  DeleteObjects: 4.822500 ms)
+
+[Licensing::Client] Successfully resolved entitlement details
+Asset Pipeline Refresh (id=afb390abe306e1e45945c6b01b23f418): Total: 0.013 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Asset Pipeline Refresh (id=6ce84c7e2303e184ab561d9065c06d8e): Total: 0.004 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Scanning for USB devices : 3.241ms
+Scanning for USB devices : 3.902ms
+Scanning for USB devices : 3.298ms
+Scanning for USB devices : 4.336ms
+Scanning for USB devices : 9.487ms
+Scanning for USB devices : 4.030ms
+Project ID request failed, Reason: The requested URL returned error: 401 (401).
+Unknown Unity Connect error (400). Please contact support at support@unity.com while processing request "https://services.unity.com/api/unity/legacy/v1/projects/79d5266f-0df5-4396-9863-a565e1251ac6", HTTP error code 401
+.[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully updated the access token
+[Licensing::Module] Successfully updated access token: "j-vEwprg"... (expires: 2026-10-22T20:55:42Z)
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+UPID Received '79d5266f-0df5-4396-9863-a565e1251ac6'.
+Scanning for USB devices : 6.740ms
+Scanning for USB devices : 18.509ms
+Scanning for USB devices : 5.352ms
+Scanning for USB devices : 5.068ms
+Scanning for USB devices : 4.545ms
+Scanning for USB devices : 4.351ms
+[Licensing::Client] Successfully resolved entitlement details
+Scanning for USB devices : 5.220ms
+Scanning for USB devices : 9.160ms
+Scanning for USB devices : 5.646ms
+[Licensing::Client] Successfully resolved entitlement details
+Scanning for USB devices : 4.829ms
+Scanning for USB devices : 5.046ms
+Scanning for USB devices : 3.861ms
+Project ID request failed, Reason: The requested URL returned error: 401 (401).
+Unknown Unity Connect error (400). Please contact support at support@unity.com while processing request "https://services.unity.com/api/unity/legacy/v1/projects/79d5266f-0df5-4396-9863-a565e1251ac6", HTTP error code 401
+.[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+Project ID request failed, Reason: The requested URL returned error: 401 (401).
+Unknown Unity Connect error (400). Please contact support at support@unity.com while processing request "https://services.unity.com/api/unity/legacy/v1/projects/79d5266f-0df5-4396-9863-a565e1251ac6", HTTP error code 401
+.[Licensing::Client] Successfully updated the access token
+[Licensing::Module] Successfully updated access token: "eDI3Mf4-"... (expires: 2026-10-22T22:55:38Z)
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+UPID Received '79d5266f-0df5-4396-9863-a565e1251ac6'.
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+Project ID request failed, Reason: The requested URL returned error: 401 (401).
+Unknown Unity Connect error (400). Please contact support at support@unity.com while processing request "https://services.unity.com/api/unity/legacy/v1/projects/79d5266f-0df5-4396-9863-a565e1251ac6", HTTP error code 401
+.[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully updated the access token
+[Licensing::Module] Successfully updated access token: "jyO_fUMG"... (expires: 2026-10-23T00:54:56Z)
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+UPID Received '79d5266f-0df5-4396-9863-a565e1251ac6'.
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+Project ID request failed, Reason: The requested URL returned error: 401 (401).
+Unknown Unity Connect error (400). Please contact support at support@unity.com while processing request "https://services.unity.com/api/unity/legacy/v1/projects/79d5266f-0df5-4396-9863-a565e1251ac6", HTTP error code 401
+.[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+Project ID request failed, Reason: The requested URL returned error: 401 (401).
+Unknown Unity Connect error (400). Please contact support at support@unity.com while processing request "https://services.unity.com/api/unity/legacy/v1/projects/79d5266f-0df5-4396-9863-a565e1251ac6", HTTP error code 401
+.[Licensing::Client] Successfully updated the access token
+[Licensing::Module] Successfully updated access token: "soJzaWlt"... (expires: 2026-10-23T02:59:46Z)
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+UPID Received '79d5266f-0df5-4396-9863-a565e1251ac6'.
+Scanning for USB devices : 4.577ms
+Scanning for USB devices : 11.634ms
+Scanning for USB devices : 28.235ms
+Scanning for USB devices : 13.767ms
+Scanning for USB devices : 96.016ms
+Scanning for USB devices : 55.571ms
+Scanning for USB devices : 6.716ms
+Scanning for USB devices : 5.261ms
+Scanning for USB devices : 3.864ms
+Scanning for USB devices : 8.155ms
+[Licensing::Client] Successfully resolved entitlement details
+Scanning for USB devices : 4.150ms
+Project ID request failed, Reason: The requested URL returned error: 401 (401).
+Unknown Unity Connect error (400). Please contact support at support@unity.com while processing request "https://services.unity.com/api/unity/legacy/v1/projects/79d5266f-0df5-4396-9863-a565e1251ac6", HTTP error code 401
+.[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully updated the access token
+[Licensing::Module] Successfully updated access token: "yNY10yOg"... (expires: 2026-10-23T04:59:10Z)
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+UPID Received '79d5266f-0df5-4396-9863-a565e1251ac6'.
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+Project ID request failed, Reason: The requested URL returned error: 401 (401).
+Unknown Unity Connect error (400). Please contact support at support@unity.com while processing request "https://services.unity.com/api/unity/legacy/v1/projects/79d5266f-0df5-4396-9863-a565e1251ac6", HTTP error code 401
+.[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully updated the access token
+[Licensing::Module] Successfully updated access token: "t5LUivm8"... (expires: 2026-10-23T06:59:01Z)
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+UPID Received '79d5266f-0df5-4396-9863-a565e1251ac6'.
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+Project ID request failed, Reason: Could not resolve host: services.unity.com (0).
+Unknown Unity Connect error (408). Please contact support at support@unity.com while processing request "https://services.unity.com/api/unity/legacy/v1/projects/79d5266f-0df5-4396-9863-a565e1251ac6", HTTP error code 0
+.[Licensing::Client] Successfully resolved entitlement details
+Project ID request failed, Reason: Could not resolve host: services.unity.com (0).
+Unknown Unity Connect error (408). Please contact support at support@unity.com while processing request "https://services.unity.com/api/unity/legacy/v1/projects/79d5266f-0df5-4396-9863-a565e1251ac6", HTTP error code 0
+.[Licensing::Client] Successfully updated the access token
+[Licensing::Module] Successfully updated access token: "S57r7hpy"... (expires: 2026-10-23T15:14:04Z)
+[Licensing::Client] Successfully resolved entitlement details
+Project ID request failed, Reason: Could not resolve host: services.unity.com (0).
+Unknown Unity Connect error (408). Please contact support at support@unity.com while processing request "https://services.unity.com/api/unity/legacy/v1/projects/79d5266f-0df5-4396-9863-a565e1251ac6", HTTP error code 0
+.Scanning for USB devices : 4.139ms
+Scanning for USB devices : 3.955ms
+Scanning for USB devices : 6.425ms
+Scanning for USB devices : 3.978ms
+Scanning for USB devices : 8.059ms
+Scanning for USB devices : 4.700ms
+Scanning for USB devices : 4.212ms
+Scanning for USB devices : 4.085ms
+Scanning for USB devices : 3.950ms
+Scanning for USB devices : 3.660ms
+Scanning for USB devices : 5.046ms
+Scanning for USB devices : 4.836ms
+Scanning for USB devices : 4.932ms
+Scanning for USB devices : 13.043ms
+Scanning for USB devices : 4.391ms
+Scanning for USB devices : 13.702ms
+Scanning for USB devices : 4.549ms
+Scanning for USB devices : 8.929ms
+Scanning for USB devices : 5.627ms
+Scanning for USB devices : 4.328ms
+Scanning for USB devices : 7.618ms
+Scanning for USB devices : 8.487ms
+Scanning for USB devices : 6.396ms
+Scanning for USB devices : 10.396ms
+Scanning for USB devices : 4.350ms
+Scanning for USB devices : 4.508ms
+Scanning for USB devices : 8.515ms
+Scanning for USB devices : 7.694ms
+Scanning for USB devices : 6.037ms
+Scanning for USB devices : 18.408ms
+Scanning for USB devices : 11.009ms
+Scanning for USB devices : 28.294ms
+Scanning for USB devices : 5.390ms
+[Licensing::Client] Successfully resolved entitlement details
+Scanning for USB devices : 4.742ms
+Scanning for USB devices : 5.299ms
+Scanning for USB devices : 3.770ms
+Scanning for USB devices : 8.214ms
+Scanning for USB devices : 14.403ms
+Scanning for USB devices : 4.689ms
+Scanning for USB devices : 6.619ms
+Scanning for USB devices : 10.909ms
+Scanning for USB devices : 4.055ms
+Scanning for USB devices : 6.898ms
+Scanning for USB devices : 4.685ms
+Scanning for USB devices : 7.056ms
+Scanning for USB devices : 3.715ms
+Project ID request failed, Reason: The requested URL returned error: 401 (401).
+Unknown Unity Connect error (400). Please contact support at support@unity.com while processing request "https://services.unity.com/api/unity/legacy/v1/projects/79d5266f-0df5-4396-9863-a565e1251ac6", HTTP error code 401
+.[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully updated the access token
+[Licensing::Module] Successfully updated access token: "NDM9iMYt"... (expires: 2026-10-23T17:13:28Z)
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+UPID Received '79d5266f-0df5-4396-9863-a565e1251ac6'.
+[Licensing::Client] Successfully resolved entitlement details
+Scanning for USB devices : 7.492ms
+Scanning for USB devices : 11.666ms
+Scanning for USB devices : 5.155ms
+Scanning for USB devices : 7.640ms
+Scanning for USB devices : 5.190ms
+Scanning for USB devices : 4.538ms
+[Licensing::Client] Successfully resolved entitlement details
+Scanning for USB devices : 8.769ms
+Scanning for USB devices : 6.010ms
+Scanning for USB devices : 4.304ms
+Importing 'GUID: 00000000000000009000000000000000 - Path: ProjectSettings/QualitySettings.asset' with importer (LibraryAssetImporter)
+Imported 'GUID: 00000000000000009000000000000000' -> (Import Result ID: '4c4863529adc9ac14970731e8a5da60e') in 0.008 seconds [static dependencies only]. Details - ImportResultOutputID=2a108b3da874f726c62fbe5f12be4a8a DependenciesID=e27b047e3559935d81d11e8d5dd7411e StaticDependenciesID=a4661aca7a2be7b6d5e28438e344ffeb 
+Importing 'GUID: d062db254dd2844439c523f0cd04ea3c - Path: Assets/New Material 2.mat' with importer (NativeFormatImporter)
+Imported 'GUID: d062db254dd2844439c523f0cd04ea3c' -> (Import Result ID: '93931c2714228b81b360ab0623566381') in 0.007 seconds [static dependencies only]. Details - ImportResultOutputID=78cc6e0a7412b473257a4f18b2237133 DependenciesID=743378dd2a4b188cd34b149655f3acd3 StaticDependenciesID=6c4f7a449c83307092d80b01cedf997c 
+
+Asset Pipeline Refresh (id=4faaf52dd5965894a816403ac2a6f99a): Total: 0.370 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=2 (actual=2, local cache=0, cache server=0)
+		Asset DB Process Time: managed=1 ms, native=265 ms
+		Asset DB Callback time: managed=30 ms, native=72 ms
+		Scripting: domain reloads=0, domain reload time=0 ms, compile time=0 ms, other=0 ms
+		Project Asset Count: scripts=1373, non-scripts=4331
+		Asset File Changes: new=0, changed=1, moved=0, deleted=0
+		Scan Filter Count: 3
+	InvokeCustomDependenciesCallbacks: 0.085ms
+	ApplyChangesToAssetFolders: 0.988ms
+	Scan: 150.969ms
+	Collect global state as custom dependencies: 0.835ms
+	OnSourceAssetsModified: 2.051ms
+	ProcessAssetsWithTransientArtifactChanges: 0.457ms
+	CategorizeAssets: 40.899ms
+	ImportOutOfDateAssets: 28.333ms (0.251ms without children)
+		ImportManagerImport: 23.570ms (1.903ms without children)
+		ReloadNativeAssets: 0.436ms
+		UnloadImportedAssets: 0.585ms
+		ReloadImportedAssets: 0.413ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.766ms
+		ImportSchedulerStart: 2.709ms
+	PostProcessAllAssets: 97.425ms
+		XRBuildSystem.XRAssetImported 61.140ms
+		MonoPostProcessAllAssets: 29.508ms
+			ConfigAssetsTracker.OnPostprocessAllAssets 8.974ms
+			SyncVS.PostprocessSyncProject 3.970ms
+			AssetPostprocessor.OnPostprocessAllAssets 3.953ms
+			AssetChangedListener.OnPostprocessAllAssets 2.105ms
+			MaterialPostprocessor.OnPostprocessAllAssets 0.929ms
+			ShaderGraphAssetPostProcessor.OnPostprocessAllAssets 0.723ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 0.514ms
+			TMPro_TexturePostProcessor.OnPostprocessAllAssets 0.440ms
+			UniversalRenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 0.375ms
+			VFXGraphPreprocessor.OnPostprocessAllAssets 0.308ms
+			EditModeScopePostprocessor.OnPostprocessAllAssets 0.273ms
+			AssetEvents.OnPostprocessAllAssets 0.257ms
+			ShaderReflectionAssetPostProcessor.OnPostprocessAllAssets 0.251ms
+			StyleCatalogPostProcessor.OnPostprocessAllAssets 0.247ms
+			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.161ms
+			CubeLutAssetImporter.OnPostprocessAllAssets 0.104ms
+			RetainedModeAssetPostprocessor.OnPostprocessAllAssets 0.056ms
+			SpeedTree9Postprocessor.OnPostprocessAllAssets 0.052ms
+	PostAssetChangesProfiler: 3.336ms
+	GatherAllCurrentPrimaryImportResultRevisions: 4.079ms
+	PersistCurrentRevisions: 0.307ms
+	Untracked: 40.320ms
+
+Importing 'GUID: 99c9720ab356a0642a771bea13969a05 - Path: Assets/Scenes/SampleScene.unity' with importer (DefaultImporter)
+Imported 'GUID: 99c9720ab356a0642a771bea13969a05' -> (Import Result ID: 'a2e572d60dca93384593e09244c58b36') in 0.008 seconds [static dependencies only]. Details - ImportResultOutputID=b4491ddbae88a879b6308480a6079ca7 DependenciesID=6750b081ad92b9f5fb455cea061f6e06 StaticDependenciesID=2760cf64cb37b0c7cb3076f84557a3bd 
+Asset Pipeline Refresh (id=5c960c823b52c7649b512ac1f17e942e): Total: 0.059 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+MonoPathRemapper: Attempts to remap: 45767; Successful remaps: 17986
+Serialized file version minimum: 22, current 23
+[LAYOUT] About to save layout C:\Users\parke\My project (2)\UserSettings\Layouts\default-6000.dwlt
+[LAYOUT] About to save layout C:/Users/parke/AppData/Roaming/Unity/Editor-5.x/Preferences\Layouts\current\default-6000.dwlt
+Input System module state changed to: ShutdownInProgress.
+Input Polling Thread exited.
+Input System module state changed to: Shutdown.
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+[Physics::Module] Cleanup current backend.
+[Physics::Module] Id: 0xf2b8ea05
+[Licensing::IpcConnector] LicenseClient-parke-notifications channel disconnected successfully.
+[Licensing::IpcConnector] LicenseClient-parke channel disconnected successfully.
+Lingering sessions upon destruction of worker manager
+Unity Data Store service was successfully shut down
+UDS shutting down local client system
+Shut down UDS service system complete
+AcceleratorClientConnectionCallback - disconnected - :0
+Cleanup mono
+CodeReloadManager destroyed
+abort_threads: Failed aborting id: 0000000000008ED0, mono_thread_manage will ignore it
+
+abort_threads: Failed aborting id: 0000000000007048, mono_thread_manage will ignore it
+
+abort_threads: Failed aborting id: 0000000000008ED0, mono_thread_manage will ignore it
+
+abort_threads: Failed aborting id: 0000000000007048, mono_thread_manage will ignore it
+
+debugger-agent: Unable to listen on 4004
+VBCSCompilerPreWarmer: requested VBCSCompiler shutdown
+Checking for leaked weakptr:
+  Found no leaked weakptrs.
+[Package Manager] Server process was shutdown
+##utp:{"type":"MemoryLeaks","version":2,"phase":"Immediate","time":1792774713800,"processId":23772,"allocatedMemory":21698682,"memoryLabels":[{"Default":261112},{"Permanent":15516},{"NewDelete":90177},{"Thread":4208296},{"Manager":821920},{"VertexData":8},{"Geometry":816},{"Shader":864323},{"Material":2112},{"TextureCache":94240},{"GfxDevice":96480},{"GfxThread":10752},{"Animation":952},{"Audio":408},{"FreeType":8},{"FontEngine":736},{"Physics":1970},{"Physics2D":16},{"Serialization":235000},{"Input":45280},{"JobScheduler":256},{"TextLib":33196},{"Mono":48},{"MonoCode":64},{"ScriptingNativeRuntime":1565552},{"BaseObject":49776},{"Resource":1444},{"Renderer":2504},{"Transform":4685},{"File":69782},{"WebCam":616},{"Culling":32},{"Terrain":11442},{"Wind":24},{"STL":40},{"String":485159},{"StaticString":3808},{"Utility":2675005},{"PoolAlloc":2360},{"AI":80},{"TypeTree":14869},{"ScriptManager":12656},{"CodeReload":448},{"RuntimeInitializeOnLoadManager":64},{"Sprites":102},{"SpriteAtlas":120},{"GI":7816},{"Director":8296},{"CloudService":7296},{"WebRequest":8601},{"VR":49650},{"SceneManager":608},{"Video":208},{"LazyScriptCache":32},{"NativeArray":540},{"Camera":729},{"Secure":265},{"SerializationCache":9256},{"APIUpdating":10320},{"Subsystems":336},{"VirtualTexturing":57888},{"StaticSafetyDebugInfo":278528},{"Analytics":592},{"Hierarchy":1188},{"UIElements":40},{"CoreStats":14456},{"Identifiers":7152},{"Gui":268603},{"EditorUtility":436444},{"VersionControl":8},{"Undo":931},{"AssetDatabase":8899330},{"AssetImporter":40},{"EditorGi":328},{"UnityConnect":36882},{"Upm":1988},{"UpmDiagnostics":8},{"AssetCompliance":96},{"DrivenProperties":72},{"LocalIPC":211},{"ProfilerEditor":9746},{"CoreBusinessMetrics":3600},{"Windowing":456},{"Licensing":696},{"AssetReference":32},{"IPCStream":32}]}

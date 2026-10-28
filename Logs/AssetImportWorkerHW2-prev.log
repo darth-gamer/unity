@@ -1,0 +1,351 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.6/staging' branch; Version is '6000.6.6f1 (d20c9ac777da) revision 13765786'; Using compiler version '194234433'; Build Type 'Release'
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-parke" at "2026-10-22T18:06:33.8081045Z"
+OS: 'Windows 11  (10.0.26300) Core' Language: 'en' Physical Memory: 16215 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-10-22T18:06:33Z
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 25812, path: "C:/Program Files (x86)/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.3+d7ffd15
+  Session Id:              260743cce2d34eab93ef547b6d0c6ae1
+  Correlation Id:          b0b084ca4607c246fa5817ab5fc148b7
+  External correlation Id: 5535904085035993878
+  Machine Id:              +mlE/HGMZlBH/GiWZw/60SifEzI=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-parke" (connect: 0.00s, validation: 0.00s, handshake: 0.04s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-parke-notifications" at "2026-10-22T18:06:33.8491192Z"
+[Licensing::Module] Licensing Background thread has ended after 0.04s
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorkerHW2
+-projectPath
+C:/Users/parke/My project (2)
+-logFile
+Logs/AssetImportWorkerHW2.log
+-srvPort
+49931
+-parentPid
+23772
+-analyticsCloudUserId
+20067638785446
+-analyticsCloudProjectId
+79d5266f-0df5-4396-9863-a565e1251ac6
+-analyticsLocalProjectId
+06bd531ed2c985042a40688ce5dfb10d
+-editorAnalyticsEnabled
+1
+-cbmEditorLicense
+ceca453d1c6b2c265c3ab0b32667e834e84f194b
+-cbmMachineId
++mlE/HGMZlBH/GiWZw/60SifEzI=
+-licensingIpc
+LicenseClient-parke
+-noDiagnosticSwitchPersistentStore
+-job-worker-count
+7
+-background-job-worker-count
+8
+-asset-garbage-collectors
+1
+-force-d3d12
+-name
+AssetImport
+Successfully changed project path to: C:/Users/parke/My project (2)
+C:/Users/parke/My project (2)
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-remapper-allocator-initial-capacity=32768"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-main-allocator-mimalloc-enabled=1"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+Player connection [18376]  Target information:
+
+Player connection [18376]  * "[IP] 192.168.1.182 [Port] 0 [Flags] 2 [Guid] 2357449485 [EditorId] 2357449485 [Version] 1048832 [Id] WindowsEditor(7,ThundershockPC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [18376] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [18376] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 7
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+Initialising UDS system complete:
+  - System type: Client
+  - Resource namespace: 51cd4f8357c376610ec25fdf363998f5
+  - Shared memory size: 1073741824
+  - Command buffer id: 1052576
+  - Command buffer size: 8192
+  - Hashmap size: 4194304
+  - Service connected: true
+  - Service working directory: Library/DataStore/
+[Physics::Module] Selected backend (deferred post-plugins).
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Initialize engine version: 6000.6.6f1 (d20c9ac777da)
+[EntityIdStore] init: VM path (explicit commit), pageSize=4096, blockCount=1048576, entitiesPerBlock=256, slots reserved=4294967296 bytes
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.6.6f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/parke/My project (2)/Assets
+Forcing GfxDevice: Direct3D 12
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+d3d12: failed to query info queue interface (0x80004002).
+Direct3D:
+    Version:         Direct3D 12 [level 12.2]
+    Renderer:        AMD Radeon RX 6700 XT (ID=0x73df)
+    Vendor:          ATI
+    VRAM:            12242 MB
+    App VRAM Budget: 11474 MB
+    Driver:          32.0.21045.16010
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.6.6f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.6.6f1/Editor/Data/BCLExtensions/runtime/netstandard2.1'
+Mono path[2] = 'C:/Program Files/Unity/Hub/Editor/6000.6.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.6.6f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56536
+CodeReloadManager initialized
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.6.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001922 seconds.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  0.453 seconds
+Domain Reload Profiling: 988ms
+	BeginReloadAssembly (129ms)
+	RebuildCommonClasses (5ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (69ms)
+	LoadAllAssembliesAndSetupDomain (314ms)
+		LoadAssemblies (125ms)
+		TypeCache.Refresh (215ms)
+			TypeCache.ScanAssembly (201ms)
+		AnalyzeDomain (1ms)
+	FinalizeReload (454ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (102ms)
+			ProcessInitializeOnLoadAttributes (99ms)
+			ProcessInitializeOnLoadMethodAttributes (163ms)
+Initializing Unity extensions:
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 20067638785446-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  0.770 seconds
+Domain Reload Profiling: 1711ms
+	BeginReloadAssembly (244ms)
+		DisableScriptedObjects (11ms)
+		CreateAndSetChildDomain (31ms)
+	RebuildCommonClasses (10ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (66ms)
+	LoadAllAssembliesAndSetupDomain (604ms)
+		LoadAssemblies (361ms)
+		TypeCache.Refresh (160ms)
+			TypeCache.ScanAssembly (146ms)
+		AnalyzeDomain (54ms)
+			BuildScriptInfoCaches (49ms)
+	FinalizeReload (771ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (106ms)
+			ProcessInitializeOnLoadAttributes (252ms)
+			ProcessInitializeOnLoadMethodAttributes (96ms)
+			AfterProcessingInitializeOnLoad (6ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+AcceleratorClientConnectionCallback - disconnected - :0
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Unloading 81 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5489 unused Assets / (13.5 MB). Loaded Objects now: 6379.
+Memory consumption went from 333.8 MB to 320.3 MB.
+Total: 8.784600 ms (FindLiveObjects: 1.223600 ms CreateObjectMapping: 0.407000 ms MarkObjects: 4.341100 ms  DeleteObjects: 2.575800 ms)
+
+Curl error 23: Failure writing output to destination, passed 293 returned 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-22T18:06:46.923638Z
+  Time since last request: 230948.54885240001022 seconds.
+  importAddress: GUID: b0a00d378697b584391c424d0ecf58ac - Path: Assets/Idyllic Fantasy Nature/Materials/Rocks/Cliff.mat - Importer: PreviewImporter
+Importing 'GUID: b0a00d378697b584391c424d0ecf58ac - Path: Assets/Idyllic Fantasy Nature/Materials/Rocks/Cliff.mat - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: b0a00d378697b584391c424d0ecf58ac' -> (Import Result ID: '36bcea67143836918ee4ad1dcc3ef7d8') in 0.462 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3950b8b655829ba011907a3f7a3901b0 DependenciesID=97f9a3a4898ec6bb602efde4947a24e5 StaticDependenciesID=e3636e7d5ad6d748e1e284ef2f95c67d 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-22T18:06:48.4666487Z
+  Time since last request: 1.0656495 seconds.
+  importAddress: GUID: 18fcf51a9ce28ac43bbcf1c40e8b314f - Path: Assets/Idyllic Fantasy Nature/Materials/Trees/Fir_Bark.mat - Importer: PreviewImporter
+Importing 'GUID: 18fcf51a9ce28ac43bbcf1c40e8b314f - Path: Assets/Idyllic Fantasy Nature/Materials/Trees/Fir_Bark.mat - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 18fcf51a9ce28ac43bbcf1c40e8b314f' -> (Import Result ID: 'f2a0679d378d6841176f1f1a591a4e28') in 0.024 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=467d5a4178cab448c5c97f7e92311ce4 DependenciesID=fe2697f219c9af6c1467ff00e6450d39 StaticDependenciesID=8274280968eb27a2603790c642bc4988 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-22T18:06:49.0330044Z
+  Time since last request: 0.5288061 seconds.
+  importAddress: GUID: a7ac34ff1b69ff84d86bb206d80d0448 - Path: Assets/Plugins/Flag Rainbow Shaders/Artwork/Materials/Heart.mat - Importer: PreviewImporter
+Importing 'GUID: a7ac34ff1b69ff84d86bb206d80d0448 - Path: Assets/Plugins/Flag Rainbow Shaders/Artwork/Materials/Heart.mat - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: a7ac34ff1b69ff84d86bb206d80d0448' -> (Import Result ID: '9eaa04df58ceb37607c74482fdc2127b') in 3.293 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=42e5825f1c4d53ff5022956f82e249bd DependenciesID=fe83a4cb7c9d149e8b7742d20c96b465 StaticDependenciesID=e05d355755bd9b600f4638146b41a81e 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-22T18:06:52.3403661Z
+  Time since last request: 0.0012242 seconds.
+  importAddress: GUID: e75f35f10811e974dabb88eb7425a1a5 - Path: Assets/Idyllic Fantasy Nature/Materials/Rocks/Rock_Medium_02.mat - Importer: PreviewImporter
+Importing 'GUID: e75f35f10811e974dabb88eb7425a1a5 - Path: Assets/Idyllic Fantasy Nature/Materials/Rocks/Rock_Medium_02.mat - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: e75f35f10811e974dabb88eb7425a1a5' -> (Import Result ID: 'd82ac4dbfcac7d75bac4a64bf6fce3e3') in 0.031 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ac031860aa87c9b92e08d9285eddfb6d DependenciesID=68d3a6b3ada0215fba16da8d09e1df3b StaticDependenciesID=35faa92c7bf0a1850a6a675af88ef604 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-22T18:06:52.3831165Z
+  Time since last request: 0.0007822 seconds.
+  importAddress: GUID: 15f9c6ee25024a04fa78aa80e0dcad1e - Path: Assets/Plugins/Flag Rainbow Shaders/Artwork/Shaders/Sprite Rainbow.shadergraph - Importer: PreviewImporter
+Importing 'GUID: 15f9c6ee25024a04fa78aa80e0dcad1e - Path: Assets/Plugins/Flag Rainbow Shaders/Artwork/Shaders/Sprite Rainbow.shadergraph - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 15f9c6ee25024a04fa78aa80e0dcad1e' -> (Import Result ID: 'bf9b52b0df91f3dacbb2addd0d9015e4') in 0.181 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=bfd869ef901d4c4b3490d1b391c105fe DependenciesID=8d5481fac42ee7127c4b49175edcfcad StaticDependenciesID=c3a6bf43f5579182b11f4cc35628d8e6 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-22T18:07:04.7645721Z
+  Time since last request: 12.1869256 seconds.
+  importAddress: GUID: 10e10891df3f9d941b0adc859c1dbac9 - Path: Assets/Plugins/Flag Rainbow Shaders - Importer: PreviewImporter
+Importing 'GUID: 10e10891df3f9d941b0adc859c1dbac9 - Path: Assets/Plugins/Flag Rainbow Shaders - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 10e10891df3f9d941b0adc859c1dbac9' -> (Import Result ID: '46f8ee879a501460d9fe5048ee983121') in 0.001 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=fadde65e9ad327048df23d835cbc7009 DependenciesID=d093eaa1caffd429d987ffb3c365273b StaticDependenciesID=d58c1ed7fbd61033d63026fcaf481049 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-22T18:07:15.1729894Z
+  Time since last request: 10.3955891 seconds.
+  importAddress: GUID: b572fdd6dd38a7a4f8a6834d8b6c3f54 - Path: Assets/Plugins/Flag Rainbow Shaders/Artwork - Importer: PreviewImporter
+Importing 'GUID: b572fdd6dd38a7a4f8a6834d8b6c3f54 - Path: Assets/Plugins/Flag Rainbow Shaders/Artwork - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: b572fdd6dd38a7a4f8a6834d8b6c3f54' -> (Import Result ID: 'ebbe5af086dd58eee16c0a1005b5c455') in 0.001 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d7956ae5270683d1183f087f4f9592d3 DependenciesID=676187881a40b3061c2edf4978e7b522 StaticDependenciesID=53b1eb8f769f3e375b39fe243ac2bd8e 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-22T18:07:17.5382094Z
+  Time since last request: 2.352996 seconds.
+  importAddress: GUID: e497c698632695f4f85ed2bce1439cc3 - Path: Assets/Plugins/Flag Rainbow Shaders/Artwork/Materials - Importer: PreviewImporter
+Importing 'GUID: e497c698632695f4f85ed2bce1439cc3 - Path: Assets/Plugins/Flag Rainbow Shaders/Artwork/Materials - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: e497c698632695f4f85ed2bce1439cc3' -> (Import Result ID: '04f31334ebd05134497c56a797884f3d') in 0.001 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=201f8120b15be9df847de2de0e0744dd DependenciesID=0c3b7d5652d426033170d39edaf5a957 StaticDependenciesID=9278f0fbbb3ae4ab787fa684b676a2fa 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-22T18:07:22.3462552Z
+  Time since last request: 4.7953925 seconds.
+  importAddress: GUID: 470b4e6e13c41c442b07e677e931d4bf - Path: Assets/Plugins/Flag Rainbow Shaders/Artwork/Shaders - Importer: PreviewImporter
+Importing 'GUID: 470b4e6e13c41c442b07e677e931d4bf - Path: Assets/Plugins/Flag Rainbow Shaders/Artwork/Shaders - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 470b4e6e13c41c442b07e677e931d4bf' -> (Import Result ID: '99af8779bfa10fc742a961ada63248e1') in 0.000 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7b6096f6d85e0345dc3bc6b2dbf26907 DependenciesID=d351e86c65a1def4963188455aac5631 StaticDependenciesID=0c916c6a0395a7455b033df91bce486e 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-22T18:07:24.5744945Z
+  Time since last request: 2.2159965 seconds.
+  importAddress: GUID: bb7fdc3b9acf8f541990deb32cd0d62a - Path: Assets/Plugins/Flag Rainbow Shaders/Artwork/Textures - Importer: PreviewImporter
+Importing 'GUID: bb7fdc3b9acf8f541990deb32cd0d62a - Path: Assets/Plugins/Flag Rainbow Shaders/Artwork/Textures - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: bb7fdc3b9acf8f541990deb32cd0d62a' -> (Import Result ID: 'e3bacb221709163e37fa326dbcc8fd81') in 0.000 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3a524d0fe4dddaef42131f0232652569 DependenciesID=77bb3e94919e0c722e6d7f2cdd78a2d5 StaticDependenciesID=90497cf60455b73980f66366cd4da33e 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-22T18:07:24.6459458Z
+  Time since last request: 0.0591099 seconds.
+  importAddress: GUID: 9e6b4af7a5f679a4cbc85936abe1d02f - Path: Assets/Plugins/Flag Rainbow Shaders/Artwork/Textures/PrideFlag.png - Importer: PreviewImporter
+Importing 'GUID: 9e6b4af7a5f679a4cbc85936abe1d02f - Path: Assets/Plugins/Flag Rainbow Shaders/Artwork/Textures/PrideFlag.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 9e6b4af7a5f679a4cbc85936abe1d02f' -> (Import Result ID: '8d8202521738ceb556f574c87ce46971') in 0.039 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3a7d6a68f84abf375ddb4620574e44d6 DependenciesID=de6a948626dc3ec7c258fc845b2f4be0 StaticDependenciesID=dfb2b877505dc69814b110cedbe03650 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-22T18:10:31.3071063Z
+  Time since last request: 186.61012210000001 seconds.
+  importAddress: GUID: d062db254dd2844439c523f0cd04ea3c - Path: Assets/New Material 2.mat - Importer: PreviewImporter
+Importing 'GUID: d062db254dd2844439c523f0cd04ea3c - Path: Assets/New Material 2.mat - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: d062db254dd2844439c523f0cd04ea3c' -> (Import Result ID: 'a88238403f50ae097ab880b867016e82') in 0.016 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0c0adbef96d07d45dc33fe2823818bce DependenciesID=e66393b8913c87269f5d75aad9a9e32d StaticDependenciesID=3197f095632893dc419ba74f8d5eba54 
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-22T18:10:32.3003797Z
+  Time since last request: 0.9638829 seconds.
+  importAddress: GUID: d062db254dd2844439c523f0cd04ea3c - Path: Assets/New Material 2.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: d062db254dd2844439c523f0cd04ea3c - Path: Assets/New Material 2.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: d062db254dd2844439c523f0cd04ea3c' -> (Import Result ID: '00243a365fb1f62bd85da13f5258c82c') in 0.069 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ab7e30e5aa086253dbda3ec32062ee6c DependenciesID=bae9f95dbcb385e4fba54d7ffc909223 StaticDependenciesID=ddb961d0bca086806450bae3e288ecc9 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Unloading 75 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 75 unused Assets / (8.0 MB). Loaded Objects now: 6538.
+Memory consumption went from 349.2 MB to 341.2 MB.
+Total: 105.873500 ms (FindLiveObjects: 1.834100 ms CreateObjectMapping: 2.456500 ms MarkObjects: 98.568500 ms  DeleteObjects: 2.224300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+Editor requested this worker to shutdown with reason: Editor is closing down
+AcceleratorClientConnectionCallback - disconnected - :0
+AssetImportWorker is now disconnected from the server
+Process exiting
+[ExitDontLaunchBugReporter] Exiting without the bug reporter. Application will exit with return code 0

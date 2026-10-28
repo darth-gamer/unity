@@ -1,0 +1,29 @@
+[2026-10-28T16:44:57.144Z][INFO] Command-line: 'C:\\Program Files\\Unity\\Hub\\Editor\\6000.6.6f1\\Editor\\Data\\Resources\\PackageManager\\Server\\UnityPackageManager.exe' server -s 31708 --ipc-path Unity-Upm-31708 -l 2 --log-file 'C:\\Users\\parke\\My project (2)/Logs/upm.log'
+[2026-10-28T16:44:57.184Z][INFO] IPC server started (IPC path=Unity-Upm-31708).
+[2026-10-28T16:44:57.185Z][INFO] Hint: To connect to this UPM instance, launch Unity with the command-line parameter -upmIpcPath Upm-31708.
+[2026-10-28T16:45:09.386Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-10-28T16:45:10.539Z][INFO] project:list-packages --> 200 (1153 ms)
+[2026-10-28T16:45:10.729Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-10-28T16:45:10.745Z][INFO] config:project:get-registries <-- Request received
+params: {}
+[2026-10-28T16:45:10.768Z][INFO] config:project:get-registries --> 200 (23 ms)
+[2026-10-28T16:45:11.016Z][INFO] project:list-packages --> 200 (286 ms)
+[2026-10-28T16:45:24.291Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-10-28T16:45:24.336Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-10-28T16:45:24.684Z][INFO] config:project:get-registries <-- Request received
+params: {}
+[2026-10-28T16:45:24.694Z][INFO] project:list-packages --> 200 (403 ms)
+[2026-10-28T16:45:24.699Z][INFO] config:project:get-registries --> 200 (15 ms)
+[2026-10-28T16:45:24.726Z][INFO] project:list-packages --> 200 (390 ms)
+[2026-10-28T16:45:27.589Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-10-28T16:45:27.766Z][INFO] project:list-packages --> 200 (177 ms)
+[2026-10-28T16:45:31.100Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-10-28T16:45:31.549Z][INFO] Downloading package [com.unity.package-manager.metadata-6000.6@0.0.97] from registry 'https://packages.unity.com'
+[2026-10-28T16:45:32.168Z][INFO] Finished downloading package [com.unity.package-manager.metadata-6000.6@0.0.97] from registry 'https://packages.unity.com' (size: 11.5 kB, time: 618ms)
+[2026-10-28T16:45:32.969Z][INFO] project:list-packages --> 200 (1869 ms)

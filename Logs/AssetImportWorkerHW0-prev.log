@@ -1,0 +1,507 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.6/staging' branch; Version is '6000.6.6f1 (d20c9ac777da) revision 13765786'; Using compiler version '194234433'; Build Type 'Release'
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-parke" at "2026-10-22T18:06:15.3930123Z"
+OS: 'Windows 11  (10.0.26300) Core' Language: 'en' Physical Memory: 16215 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-10-22T18:06:15Z
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 25812, path: "C:/Program Files (x86)/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.3+d7ffd15
+  Session Id:              9735337d54df45f285e1d68a6c2afae3
+  Correlation Id:          b0b084ca4607c246fa5817ab5fc148b7
+  External correlation Id: 8578518202433985724
+  Machine Id:              +mlE/HGMZlBH/GiWZw/60SifEzI=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-parke" (connect: 0.00s, validation: 0.00s, handshake: 0.04s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-parke-notifications" at "2026-10-22T18:06:15.4384311Z"
+[Licensing::Module] Licensing Background thread has ended after 0.05s
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorkerHW0
+-projectPath
+C:/Users/parke/My project (2)
+-logFile
+Logs/AssetImportWorkerHW0.log
+-srvPort
+49931
+-parentPid
+23772
+-analyticsCloudUserId
+anonymous
+-analyticsCloudProjectId
+79d5266f-0df5-4396-9863-a565e1251ac6
+-analyticsLocalProjectId
+06bd531ed2c985042a40688ce5dfb10d
+-editorAnalyticsEnabled
+1
+-cbmEditorLicense
+ceca453d1c6b2c265c3ab0b32667e834e84f194b
+-cbmMachineId
++mlE/HGMZlBH/GiWZw/60SifEzI=
+-licensingIpc
+LicenseClient-parke
+-noDiagnosticSwitchPersistentStore
+-job-worker-count
+7
+-background-job-worker-count
+8
+-asset-garbage-collectors
+1
+-force-d3d12
+-name
+AssetImport
+Successfully changed project path to: C:/Users/parke/My project (2)
+C:/Users/parke/My project (2)
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-remapper-allocator-initial-capacity=32768"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-main-allocator-mimalloc-enabled=1"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+Player connection [16016]  Target information:
+
+Player connection [16016]  * "[IP] 192.168.1.182 [Port] 0 [Flags] 2 [Guid] 2872523104 [EditorId] 2872523104 [Version] 1048832 [Id] WindowsEditor(7,ThundershockPC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [16016] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [16016] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 7
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+Initialising UDS system complete:
+  - System type: Client
+  - Resource namespace: 51cd4f8357c376610ec25fdf363998f5
+  - Shared memory size: 1073741824
+  - Command buffer id: 1052576
+  - Command buffer size: 8192
+  - Hashmap size: 4194304
+  - Service connected: true
+  - Service working directory: Library/DataStore/
+Refreshing native plugins compatible for Editor in 2.06 ms, found 3 plugins.
+[Physics::Module] Selected backend (deferred post-plugins).
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Initialize engine version: 6000.6.6f1 (d20c9ac777da)
+[EntityIdStore] init: VM path (explicit commit), pageSize=4096, blockCount=1048576, entitiesPerBlock=256, slots reserved=4294967296 bytes
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.6.6f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/parke/My project (2)/Assets
+Forcing GfxDevice: Direct3D 12
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+d3d12: failed to query info queue interface (0x80004002).
+Direct3D:
+    Version:         Direct3D 12 [level 12.2]
+    Renderer:        AMD Radeon RX 6700 XT (ID=0x73df)
+    Vendor:          ATI
+    VRAM:            12242 MB
+    App VRAM Budget: 11474 MB
+    Driver:          32.0.21045.16010
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.6.6f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.6.6f1/Editor/Data/BCLExtensions/runtime/netstandard2.1'
+Mono path[2] = 'C:/Program Files/Unity/Hub/Editor/6000.6.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.6.6f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56740
+CodeReloadManager initialized
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.6.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002456 seconds.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  0.476 seconds
+Domain Reload Profiling: 1038ms
+	BeginReloadAssembly (135ms)
+	RebuildCommonClasses (5ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (71ms)
+	LoadAllAssembliesAndSetupDomain (334ms)
+		LoadAssemblies (130ms)
+		TypeCache.Refresh (229ms)
+			TypeCache.ScanAssembly (214ms)
+		AnalyzeDomain (1ms)
+	FinalizeReload (476ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (102ms)
+			ProcessInitializeOnLoadAttributes (100ms)
+			ProcessInitializeOnLoadMethodAttributes (193ms)
+Initializing Unity extensions:
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 20067638785446-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 15.75 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  1.576 seconds
+Domain Reload Profiling: 2466ms
+	BeginReloadAssembly (234ms)
+		DisableScriptedObjects (10ms)
+		CreateAndSetChildDomain (34ms)
+	RebuildCommonClasses (8ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (57ms)
+	LoadAllAssembliesAndSetupDomain (572ms)
+		LoadAssemblies (329ms)
+		TypeCache.Refresh (155ms)
+			TypeCache.ScanAssembly (140ms)
+		AnalyzeDomain (53ms)
+			BuildScriptInfoCaches (49ms)
+	FinalizeReload (1578ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			BeforeProcessingInitializeOnLoad (212ms)
+			ProcessInitializeOnLoadAttributes (587ms)
+			ProcessInitializeOnLoadMethodAttributes (163ms)
+			AfterProcessingInitializeOnLoad (17ms)
+			EditorAssembliesLoaded (3ms)
+		AwakeInstancesAfterBackupRestoration (17ms)
+AcceleratorClientConnectionCallback - disconnected - :0
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Unloading 81 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5489 unused Assets / (13.6 MB). Loaded Objects now: 6378.
+Memory consumption went from 337.0 MB to 323.4 MB.
+Total: 8.081000 ms (FindLiveObjects: 0.522300 ms CreateObjectMapping: 0.299900 ms MarkObjects: 4.408100 ms  DeleteObjects: 2.614700 ms)
+
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Unloading 75 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 75 unused Assets / (8.2 MB). Loaded Objects now: 6378.
+Memory consumption went from 330.0 MB to 321.8 MB.
+Total: 7.164000 ms (FindLiveObjects: 0.613200 ms CreateObjectMapping: 0.160400 ms MarkObjects: 4.435400 ms  DeleteObjects: 1.707500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Unloading 75 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 75 unused Assets / (8.1 MB). Loaded Objects now: 6378.
+Memory consumption went from 331.5 MB to 323.3 MB.
+Total: 6.283700 ms (FindLiveObjects: 0.330900 ms CreateObjectMapping: 0.111700 ms MarkObjects: 4.158900 ms  DeleteObjects: 1.456100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-22T18:06:33.646518Z
+  Time since last request: 230935.27173239999684 seconds.
+  importAddress: GUID: e497c698632695f4f85ed2bce1439cc3 - Path: Assets/Plugins/Flag Rainbow Shaders/Artwork/Materials - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: e497c698632695f4f85ed2bce1439cc3 - Path: Assets/Plugins/Flag Rainbow Shaders/Artwork/Materials - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: e497c698632695f4f85ed2bce1439cc3' -> (Import Result ID: '63c63fe4e9e4f14a17299e0d3709cf5e') in 0.052 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2f9f3afc979894a2eee02d747031a1e9 DependenciesID=ce4b8d3df0bd1d0fba62577e2aa7eab6 StaticDependenciesID=ed2ba578ef0aa570fb04fee8b25a6560 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-22T18:06:33.7223686Z
+  Time since last request: 0.0073474 seconds.
+  importAddress: GUID: 15f9c6ee25024a04fa78aa80e0dcad1e - Path: Assets/Plugins/Flag Rainbow Shaders/Artwork/Shaders/Sprite Rainbow.shadergraph - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 15f9c6ee25024a04fa78aa80e0dcad1e - Path: Assets/Plugins/Flag Rainbow Shaders/Artwork/Shaders/Sprite Rainbow.shadergraph - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 15f9c6ee25024a04fa78aa80e0dcad1e' -> (Import Result ID: '082fce5b2f750f32835f79ca2edf90a5') in 0.077 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5bae060421c127611559e46f69045095 DependenciesID=3aac196c578c96dcf5ed1cf82a7e3e95 StaticDependenciesID=d09c2be76bda98ab1bcd54b950476c10 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-22T18:06:33.8132664Z
+  Time since last request: 0.0001934 seconds.
+  importAddress: GUID: 63b2e5dbaef291048b9676e809ffbd19 - Path: Assets/Plugins/Flag Rainbow Shaders/Artwork/Materials/Metalic.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 63b2e5dbaef291048b9676e809ffbd19 - Path: Assets/Plugins/Flag Rainbow Shaders/Artwork/Materials/Metalic.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 63b2e5dbaef291048b9676e809ffbd19' -> (Import Result ID: '243453a37e6c95545cc11d4343682df5') in 0.010 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=90064f521c66daf1a57c774fb8a04462 DependenciesID=7e9247dc2b8aa55613be0b73409f6d96 StaticDependenciesID=6c8d117f7c5bf2e5756c03a219baab72 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-22T18:06:33.837057Z
+  Time since last request: 0.0003456 seconds.
+  importAddress: GUID: 7e85e2fcecd1001478892716b02813ec - Path: Assets/Plugins/Flag Rainbow Shaders/Artwork/Materials/Rainbow.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 7e85e2fcecd1001478892716b02813ec - Path: Assets/Plugins/Flag Rainbow Shaders/Artwork/Materials/Rainbow.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 7e85e2fcecd1001478892716b02813ec' -> (Import Result ID: '4f26f22717869541a115dd5832028ef0') in 0.015 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3775d47579e5e2d33d83ac0c48ea1fe3 DependenciesID=0215513e023822afdd45cd46173c10a1 StaticDependenciesID=395a83a91a378e4ae4ac298fe4088a6a 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-22T18:06:33.8645098Z
+  Time since last request: 0.0002459 seconds.
+  importAddress: GUID: d1a64948cddc4154f8f164a766bb2533 - Path: Assets/Plugins/Flag Rainbow Shaders/Artwork/Shaders/Flag.shadergraph - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: d1a64948cddc4154f8f164a766bb2533 - Path: Assets/Plugins/Flag Rainbow Shaders/Artwork/Shaders/Flag.shadergraph - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: d1a64948cddc4154f8f164a766bb2533' -> (Import Result ID: '7ae6cdd4adf8c5203fe69800573f0710') in 0.008 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=516fdc04733345d74203a2dbaefedb46 DependenciesID=fef30fb003fd3aaedfeea56b61821b7a StaticDependenciesID=d4f3b71b6a7b36955534e33348a6d6e9 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-22T18:06:33.8850414Z
+  Time since last request: 0.000187 seconds.
+  importAddress: GUID: 13285fbac3dc61a42a8d133000372399 - Path: Assets/Plugins - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 13285fbac3dc61a42a8d133000372399 - Path: Assets/Plugins - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 13285fbac3dc61a42a8d133000372399' -> (Import Result ID: '65b43b9d29f598c0c95504528a977753') in 0.002 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7b9495706ae2203c9068ec7d61a8b237 DependenciesID=aa411f639d95c9dfa550d61e5964ee77 StaticDependenciesID=8c5a2cc4a1de4124c35b930aa886fcb8 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-22T18:06:33.8996013Z
+  Time since last request: 0.0003301 seconds.
+  importAddress: GUID: bb7fdc3b9acf8f541990deb32cd0d62a - Path: Assets/Plugins/Flag Rainbow Shaders/Artwork/Textures - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: bb7fdc3b9acf8f541990deb32cd0d62a - Path: Assets/Plugins/Flag Rainbow Shaders/Artwork/Textures - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: bb7fdc3b9acf8f541990deb32cd0d62a' -> (Import Result ID: '1493ab962b517757e50bc36504b2c823') in 0.003 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=68a26ead52d907469077c14554801f00 DependenciesID=37001950bbc1bd1e68bae9700bda0d68 StaticDependenciesID=a3e30d7436c7492149e6e02be046d4d2 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-22T18:06:33.9154875Z
+  Time since last request: 0.0003831 seconds.
+  importAddress: GUID: 7cdeb1fb2cda2ea46a8a4c9b337cd876 - Path: Assets/Plugins/Flag Rainbow Shaders/Read Me.txt - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 7cdeb1fb2cda2ea46a8a4c9b337cd876 - Path: Assets/Plugins/Flag Rainbow Shaders/Read Me.txt - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 7cdeb1fb2cda2ea46a8a4c9b337cd876' -> (Import Result ID: '9039f0468537edcf53e9c0b995ec4a28') in 0.002 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0fcc573b52719fd991257a0a7f456c2f DependenciesID=afa1f3ebf8a472c25e34c8e1ec8c53dd StaticDependenciesID=2514df1e8938d72f8a6a70419be6b8f9 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-22T18:06:33.928438Z
+  Time since last request: 0.0003023 seconds.
+  importAddress: GUID: 10e10891df3f9d941b0adc859c1dbac9 - Path: Assets/Plugins/Flag Rainbow Shaders - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 10e10891df3f9d941b0adc859c1dbac9 - Path: Assets/Plugins/Flag Rainbow Shaders - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 10e10891df3f9d941b0adc859c1dbac9' -> (Import Result ID: '4c674a6a907f26d2a054a5ae0f18dbd4') in 0.002 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=643b980cde6b380fb97fdf0739a9876a DependenciesID=4b11814d13008e55b3056b2d63ac882b StaticDependenciesID=5c36fd78563714ac81380e21b66642db 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-22T18:06:33.9426316Z
+  Time since last request: 0.0002596 seconds.
+  importAddress: GUID: 13091b0057a2e7d42ab5be4e6e364b19 - Path: Assets/Plugins/Flag Rainbow Shaders/Others/UniversalRenderPipelineGlobalSettings.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 13091b0057a2e7d42ab5be4e6e364b19 - Path: Assets/Plugins/Flag Rainbow Shaders/Others/UniversalRenderPipelineGlobalSettings.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 13091b0057a2e7d42ab5be4e6e364b19' -> (Import Result ID: 'c110bcfd327070999ab240aac7d6c9f6') in 0.018 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2993012bf061a434f28dedadb38798fe DependenciesID=d39924f85dd7a99929054a53de89286b StaticDependenciesID=497517a914a9219733c9dc5b645a2605 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-22T18:06:33.9729795Z
+  Time since last request: 0.0003244 seconds.
+  importAddress: GUID: 4565e330c96d53a47828f4e7ff165cc1 - Path: Assets/Plugins/Flag Rainbow Shaders/Others/Global Volume Profile.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 4565e330c96d53a47828f4e7ff165cc1 - Path: Assets/Plugins/Flag Rainbow Shaders/Others/Global Volume Profile.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 4565e330c96d53a47828f4e7ff165cc1' -> (Import Result ID: '98911ef40812cf321f09e835995f0247') in 0.003 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3bb2cbfccd8b4c486b5a4f96f675a960 DependenciesID=06482e56e674ce415b5610d6c5d2a1ee StaticDependenciesID=febd35523e3610d5a9e47ae469704c69 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-22T18:06:33.9879042Z
+  Time since last request: 0.0003506 seconds.
+  importAddress: GUID: 44aa99daf0392c049a52f62607bf2b6b - Path: Assets/Plugins/Flag Rainbow Shaders/Demo.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 44aa99daf0392c049a52f62607bf2b6b - Path: Assets/Plugins/Flag Rainbow Shaders/Demo.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 44aa99daf0392c049a52f62607bf2b6b' -> (Import Result ID: '3034eeff9b9f6b7780b9cd679d87a9e9') in 0.002 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3ad2e14fbdd5e1520a419cf4cdc3fd6c DependenciesID=220645340891f735fe29e0d4547d2793 StaticDependenciesID=c4e72208b8de1fe996d96a1d43432f47 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-22T18:06:34.0020582Z
+  Time since last request: 0.0002694 seconds.
+  importAddress: GUID: 8236471791e09c947b7d1654da13c08f - Path: Assets/Plugins/Flag Rainbow Shaders/Artwork/Materials/Flag.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 8236471791e09c947b7d1654da13c08f - Path: Assets/Plugins/Flag Rainbow Shaders/Artwork/Materials/Flag.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 8236471791e09c947b7d1654da13c08f' -> (Import Result ID: 'de16412aac318c94a61baf064518c623') in 0.005 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=24dc9a9d9bdebd2ad4c2c3a2a4ad9fd1 DependenciesID=7facf49f99d13a00809703ccedb2751a StaticDependenciesID=1447a0f0ba65f1e8d08eecdab2decd75 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-22T18:06:34.0197979Z
+  Time since last request: 0.0001664 seconds.
+  importAddress: GUID: 378d66f69d9f66f4eaa44fe085469a58 - Path: Assets/Plugins/Flag Rainbow Shaders/Prefabs/Flag.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 378d66f69d9f66f4eaa44fe085469a58 - Path: Assets/Plugins/Flag Rainbow Shaders/Prefabs/Flag.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 378d66f69d9f66f4eaa44fe085469a58' -> (Import Result ID: '79285354608861bd2d377aa0ada4942a') in 0.011 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7f7b7774bb63016a826f077020ff3ab2 DependenciesID=46d1210a7807bc12d7dec5ddcc502ab8 StaticDependenciesID=afbdf1c8bade58e5ee886b31fe5379c0 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-22T18:06:34.0432077Z
+  Time since last request: 0.0003014 seconds.
+  importAddress: GUID: 8d070950b311f1448b0a773950d887b0 - Path: Assets/Plugins/Flag Rainbow Shaders/Prefabs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 8d070950b311f1448b0a773950d887b0 - Path: Assets/Plugins/Flag Rainbow Shaders/Prefabs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 8d070950b311f1448b0a773950d887b0' -> (Import Result ID: 'b4b13a23faf949486a4a923e2aa6cf47') in 0.002 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=364458c2b20127bcfe611e085f1470a2 DependenciesID=5b7b0808350d15f981d5e8079f23f697 StaticDependenciesID=15afc59864f91fbc0766d62d24d8ce84 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-22T18:06:34.0568923Z
+  Time since last request: 0.0003504 seconds.
+  importAddress: GUID: bb23384a38b610d46b3bca5f805ce727 - Path: Assets/Plugins/Flag Rainbow Shaders/Read Me.txt.bak - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: bb23384a38b610d46b3bca5f805ce727 - Path: Assets/Plugins/Flag Rainbow Shaders/Read Me.txt.bak - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: bb23384a38b610d46b3bca5f805ce727' -> (Import Result ID: '7b77cb05f656721c9fe85dcb8122e0b3') in 0.002 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=32208a11fdf989316ec91713c341751c DependenciesID=821a04a560e3c7c9206629582159dede StaticDependenciesID=8aafc096c1074848c82c1652eedcf763 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-22T18:06:34.0711396Z
+  Time since last request: 0.0002793 seconds.
+  importAddress: GUID: b572fdd6dd38a7a4f8a6834d8b6c3f54 - Path: Assets/Plugins/Flag Rainbow Shaders/Artwork - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: b572fdd6dd38a7a4f8a6834d8b6c3f54 - Path: Assets/Plugins/Flag Rainbow Shaders/Artwork - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: b572fdd6dd38a7a4f8a6834d8b6c3f54' -> (Import Result ID: '6cee5a22a60c9699c2d1a2ad31d30884') in 0.002 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2eeb7b327515411ca49cd02d3ae98c06 DependenciesID=3887f1794091ea6a4769d48cf7cd3242 StaticDependenciesID=f2f846bf543d1e1714847df6e0e5053d 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-22T18:06:34.084609Z
+  Time since last request: 0.0003416 seconds.
+  importAddress: GUID: fe0c8a5cf0449464686f2dbfab27fc34 - Path: Assets/Plugins/Flag Rainbow Shaders/Prefabs/White Heart.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: fe0c8a5cf0449464686f2dbfab27fc34 - Path: Assets/Plugins/Flag Rainbow Shaders/Prefabs/White Heart.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: fe0c8a5cf0449464686f2dbfab27fc34' -> (Import Result ID: '5acff4aad8d71ffeedcdf13025a10c10') in 0.025 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d4df80f47e08ee6eee63368f565bbab1 DependenciesID=4b018ee674de0a1f420bc39ae5ba85f9 StaticDependenciesID=115bcd949b16d745c29b364ae1f45fa2 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-22T18:06:34.1213876Z
+  Time since last request: 0.0002027 seconds.
+  importAddress: GUID: aee62b3dffb98ee43be7fdbe84cc6ac4 - Path: Assets/Plugins/Flag Rainbow Shaders/Artwork/Textures/White Heart.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: aee62b3dffb98ee43be7fdbe84cc6ac4 - Path: Assets/Plugins/Flag Rainbow Shaders/Artwork/Textures/White Heart.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: aee62b3dffb98ee43be7fdbe84cc6ac4' -> (Import Result ID: '2919ead5c56116f45059a848d47e993d') in 0.036 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=23593429633a7a785a3b89a3f51c8f35 DependenciesID=0e2f5c14f9b41ee272a1a82b12154a08 StaticDependenciesID=3d5b1d7b741614797b926b1a449454ae 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-22T18:06:34.1695552Z
+  Time since last request: 0.0004032 seconds.
+  importAddress: GUID: a7ac34ff1b69ff84d86bb206d80d0448 - Path: Assets/Plugins/Flag Rainbow Shaders/Artwork/Materials/Heart.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: a7ac34ff1b69ff84d86bb206d80d0448 - Path: Assets/Plugins/Flag Rainbow Shaders/Artwork/Materials/Heart.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: a7ac34ff1b69ff84d86bb206d80d0448' -> (Import Result ID: '8c8a21b244cffad232d393a039507519') in 0.006 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e58074285449765b7839db87a95ec4c5 DependenciesID=46f9b3d31beb2dd90839289e610049a9 StaticDependenciesID=3c914e708e02334321a587c29f028209 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-22T18:06:34.1886937Z
+  Time since last request: 0.0001495 seconds.
+  importAddress: GUID: 470b4e6e13c41c442b07e677e931d4bf - Path: Assets/Plugins/Flag Rainbow Shaders/Artwork/Shaders - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 470b4e6e13c41c442b07e677e931d4bf - Path: Assets/Plugins/Flag Rainbow Shaders/Artwork/Shaders - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 470b4e6e13c41c442b07e677e931d4bf' -> (Import Result ID: 'c501066d966885eaefebb3ef98b9f406') in 0.003 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=31fd4ee628ecf551738891f1b7cae9c5 DependenciesID=1e6081755daaa355b736dbd93c912a63 StaticDependenciesID=3c100a987fb51d70a85e86339a97aac5 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-22T18:06:34.205477Z
+  Time since last request: 0.000403 seconds.
+  importAddress: GUID: fc4eee84928f34f499c77d8275a540a7 - Path: Assets/Plugins/Flag Rainbow Shaders/Others - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: fc4eee84928f34f499c77d8275a540a7 - Path: Assets/Plugins/Flag Rainbow Shaders/Others - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: fc4eee84928f34f499c77d8275a540a7' -> (Import Result ID: 'c9cf494d3e2a616cd8b48996425ce693') in 0.005 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6a8b3b38393233354eb39737324cd709 DependenciesID=64d4eedad8d6ba149e24226e38903ba5 StaticDependenciesID=6c91c266df84f3d4c0c3d8780972736a 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-22T18:06:34.22409Z
+  Time since last request: 0.0000359 seconds.
+  importAddress: GUID: 09fd31986bda17b4f8ce16de663b1a6d - Path: Assets/Plugins/Flag Rainbow Shaders/Artwork/Materials/Rainbow 1 Segment.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 09fd31986bda17b4f8ce16de663b1a6d - Path: Assets/Plugins/Flag Rainbow Shaders/Artwork/Materials/Rainbow 1 Segment.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 09fd31986bda17b4f8ce16de663b1a6d' -> (Import Result ID: 'f6fe079aa09840d8faa3b12a052ed79c') in 0.004 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9ceb13f93fb393c3dab7588faebaa6e6 DependenciesID=62bdb3fcd7d4e254b51971b3377344a2 StaticDependenciesID=dfe250d028f770ed48098f81e05660f8 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-22T18:06:34.24137Z
+  Time since last request: 0.0002122 seconds.
+  importAddress: GUID: 9e6b4af7a5f679a4cbc85936abe1d02f - Path: Assets/Plugins/Flag Rainbow Shaders/Artwork/Textures/PrideFlag.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 9e6b4af7a5f679a4cbc85936abe1d02f - Path: Assets/Plugins/Flag Rainbow Shaders/Artwork/Textures/PrideFlag.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 9e6b4af7a5f679a4cbc85936abe1d02f' -> (Import Result ID: '2804fd652d4a71d3efea4eeec68d6e45') in 0.006 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=864ea75ac993097bad1a75f401d6f257 DependenciesID=65041486fe75a60668a87ed3ca2621d4 StaticDependenciesID=2d007f11069d0cc9ac398a0af61887f7 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-22T18:06:48.4676691Z
+  Time since last request: 14.2084449 seconds.
+  importAddress: GUID: 8236471791e09c947b7d1654da13c08f - Path: Assets/Plugins/Flag Rainbow Shaders/Artwork/Materials/Flag.mat - Importer: PreviewImporter
+Importing 'GUID: 8236471791e09c947b7d1654da13c08f - Path: Assets/Plugins/Flag Rainbow Shaders/Artwork/Materials/Flag.mat - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 8236471791e09c947b7d1654da13c08f' -> (Import Result ID: '05366f45fb73f3f5740dad0baff2b213') in 3.871 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=bb751c488ec522c8a92fcc493c05640a DependenciesID=9c3d1194130429009082cc9640061e12 StaticDependenciesID=69815dc1ded501e801b6c7386b1cd78d 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-22T18:06:52.3531624Z
+  Time since last request: 0.0000302 seconds.
+  importAddress: GUID: 63b2e5dbaef291048b9676e809ffbd19 - Path: Assets/Plugins/Flag Rainbow Shaders/Artwork/Materials/Metalic.mat - Importer: PreviewImporter
+Importing 'GUID: 63b2e5dbaef291048b9676e809ffbd19 - Path: Assets/Plugins/Flag Rainbow Shaders/Artwork/Materials/Metalic.mat - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 63b2e5dbaef291048b9676e809ffbd19' -> (Import Result ID: '2a0a95c253e69f1b21dcc456354180b1') in 0.013 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1fb96e323a16d8365a19f8713cc9cb16 DependenciesID=e1aa09a8ca3cc9dc953f56cd932a198a StaticDependenciesID=2e03d4584dc3c04f7c8026b9d9b3c8e5 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-22T18:06:52.3798546Z
+  Time since last request: 0.0014762 seconds.
+  importAddress: GUID: 7e85e2fcecd1001478892716b02813ec - Path: Assets/Plugins/Flag Rainbow Shaders/Artwork/Materials/Rainbow.mat - Importer: PreviewImporter
+Importing 'GUID: 7e85e2fcecd1001478892716b02813ec - Path: Assets/Plugins/Flag Rainbow Shaders/Artwork/Materials/Rainbow.mat - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 7e85e2fcecd1001478892716b02813ec' -> (Import Result ID: '270c286982d73f8b67f5cb7ba81c59bf') in 0.186 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=523ba1e44c519cfe019070fc8df218de DependenciesID=d5f808617bc8ed16861086cfddde2862 StaticDependenciesID=79158e866b4456667152f946808c5245 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-22T18:07:24.6461624Z
+  Time since last request: 32.0684947 seconds.
+  importAddress: GUID: aee62b3dffb98ee43be7fdbe84cc6ac4 - Path: Assets/Plugins/Flag Rainbow Shaders/Artwork/Textures/White Heart.png - Importer: PreviewImporter
+Importing 'GUID: aee62b3dffb98ee43be7fdbe84cc6ac4 - Path: Assets/Plugins/Flag Rainbow Shaders/Artwork/Textures/White Heart.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: aee62b3dffb98ee43be7fdbe84cc6ac4' -> (Import Result ID: 'dee1ae23bac73a1f51744d40d998ea5d') in 0.058 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d3f58fa469cc9d433590da6a5bc540db DependenciesID=e7fc1dbdaf0a3520d4e42f2b0eb57ac4 StaticDependenciesID=f6dafb7db94f2ad34d17f7e9274f887c 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Unloading 75 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 75 unused Assets / (8.0 MB). Loaded Objects now: 6541.
+Memory consumption went from 350.6 MB to 342.6 MB.
+Total: 118.055300 ms (FindLiveObjects: 1.963300 ms CreateObjectMapping: 2.010100 ms MarkObjects: 111.494500 ms  DeleteObjects: 2.270300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+Editor requested this worker to shutdown with reason: Editor is closing down
+AcceleratorClientConnectionCallback - disconnected - :0
+AssetImportWorker is now disconnected from the server
+Process exiting
+[ExitDontLaunchBugReporter] Exiting without the bug reporter. Application will exit with return code 0
